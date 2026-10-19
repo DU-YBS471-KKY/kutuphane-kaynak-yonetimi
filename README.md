@@ -76,8 +76,8 @@ Klasörler ilk dosya eklendiğinde oluşur.
 
 | Sürüm | Tarih | İçerik |
 |---|---|---|
-| v0.1 | 1 Kasım | Sprint 1: katalog |
-| v0.2 | 8 Kasım | Sprint 2: ödünç süreci, risk ve kalite |
-| v0.3 | 22 Kasım | Sprint 3: iade, giriş, konfigürasyon |
-| v0.4 | 29 Kasım | Sprint 4: yönetim kuralları, kapanış |
+| v0.1 | 25 Ekim | Sprint 1: katalog |
+| v0.2 | 1 Kasım | Sprint 2: ödünç süreci, risk ve kalite |
+| v0.3 | 8 Kasım | Sprint 3: iade, giriş, konfigürasyon, rol devri |
+| v0.4 | 22 Kasım | Sprint 4: yönetim kuralları, kapanış |
 | v1.0 | Final | Teslim paketi |
