@@ -95,12 +95,12 @@ Bunlar kabul edilmiş yeni kurallar değildir; Jira kriterlerini değiştirmez.
 - US-14: Aynı zaman damgalı taleplerin sıralama ölçütü, kişi başı rezervasyon sınırı ve müsait kopya varken rezervasyon davranışı.
 - US-17: Teslim alma için bekletme süresi ve süre dolunca sıradaki öğrenciye geçiş; bildirim kanalı ve tercihlerin etkisi.
 - US-16: Hatırlatmanın gün içindeki saati/zaman dilimi, geçersiz e-posta ve gönderim hatasında tekrar deneme politikası.
-- US-14/17: Birden fazla kopyanın aynı anda iadesinde tahsis sırası ve bakımda olan kopyaların kullanılabilir sayılmaması.
+- US-14/17: Birden fazla kopyanın aynı anda iadesinde tahsis sırası ve bakımdan çıkan kopya için rezervasyon bildirimini başlatacak olay.
 - US-15: Geçmiş kayıtların sıralama, filtreleme ve saklama süresi.
 
 ## Bağımlılıklar ve teslim kontrolü
 
-US-14 rezervasyon sırası, US-17'nin alıcı seçimine girdidir. US-12 iade/stok onayı, US-13 güncel iade tarihi ve US-02 oturum bilgisiyle akış tutarlılığı ilgili Story sahipleriyle kontrol edilmelidir. İade edilmiş fakat bakımda olan bir kopya için kullanılabilirlik kararı ayrıca netleştirilmelidir.
+US-14 rezervasyon sırası, US-17'nin alıcı seçimine girdidir. [US-12 / KKY-11](https://dagdelen41.atlassian.net/browse/KKY-11) kriterlerine göre hasarlı iade Bakımda işaretlenir ve kullanılabilir stoğa eklenmez; [US-09 / KKY-19](https://dagdelen41.atlassian.net/browse/KKY-19) bakımdaki kopyanın ödünç verilemeyeceğini belirtir. Dolayısıyla US-17 bildirimi yalnızca iade edilen kopya kullanılabilir olduğunda oluşur. Bu mevcut bir bağımlılıktır, yeni PO kararı değildir. [US-13 / KKY-12](https://dagdelen41.atlassian.net/browse/KKY-12) için başka öğrencinin rezervasyonu varsa uzatma reddedilir; uzatma kabul edildiğinde US-15 ve US-16 güncel iade tarihini esas alır. US-02 oturum bilgisiyle yetki tutarlılığı ilgili Story sahipleriyle kontrol edilmelidir.
 
 - [x] KKY-21–24'ün sorumlusu, Epic'i ve doğru Story Points alanındaki 5/2/3/3 puanları kontrol edildi.
 - [x] Dört Story'nin Jira cümlesi ve üçer kabul kriteri bu belgede eşlendi.
