@@ -1,9 +1,10 @@
 # US-08–US-10 Gereksinim ve Kabul Kriterleri
 
 Sorumlu: Mert Seçkin (@mrts3c)  
-Hazırlanma tarihi: 21 Ekim 2026
+Hazırlanma tarihi: 21 Ekim 2026  
+Son güncelleme: 22 Ekim 2026
 
-Bu belge, Mert’in üç işinin kapsamını ve daha sonra üretilecek çıktılarını netleştirir. Gereksinim hazırlığıdır; ekranların tamamlandığını veya testlerin çalıştırıldığını göstermez. İşler Backlog / Yapılacak durumundadır. Sprint 2, ekip planındaki hedef dönemdir; fiilî sprint ataması ve başlangıcı ekipçe yapılacaktır.
+Sorumlu olduğum US-08, US-09 ve US-10 için kabul kriterlerini ve kontrol senaryolarını burada topladım. Ekran taslaklarını, işlem akışlarını ve kontrol sonuçlarını ekip planına göre Sprint 2’de hazırlayacağım. Şu anda üç iş de Backlog’da.
 
 | İş | Jira | Puan | Hedef | Trello |
 |---|---|---:|---|---|
@@ -11,7 +12,7 @@ Bu belge, Mert’in üç işinin kapsamını ve daha sonra üretilecek çıktıl
 | US-09 Bakım durumu | [KKY-19](https://dagdelen41.atlassian.net/browse/KKY-19) | 2 | Sprint 2 | [Kart](https://trello.com/c/UJwCmUw7) |
 | US-10 Puan ve yorum | [KKY-20](https://dagdelen41.atlassian.net/browse/KKY-20) | 3 | Sprint 2 | [Kart](https://trello.com/c/I6QAP8HN) |
 
-Üç iş de Kaynak ve Kitap Envanteri Epic’i kapsamındadır. Jira kayıtları ayrıntılı iş takibinin kaynağıdır.
+Bu üç işi Jira’da Kaynak ve Kitap Envanteri Epic’i altında takip ediyorum.
 
 ## US-08 — Görevli barkod ile yeni kitap ekleme
 
@@ -25,7 +26,7 @@ Bu belge, Mert’in üç işinin kapsamını ve daha sonra üretilecek çıktıl
 4. Kapak bilgisi isteğe bağlıdır; kapak olmaması geçerli kitap kaydını engellemez.
 5. Başarıyla kaydedilen kitap katalog aramasında bulunabilir.
 
-### Sprint sırasında hazırlanacak çıktılar
+### Sprint 2’de hazırlayacaklarım
 
 - Kitap ekleme formu taslağı ve zorunlu/isteğe bağlı alan tablosu.
 - Geçersiz ISBN ve tekrar kayıt uyarılarını içeren doğrulama akışı.
@@ -38,7 +39,7 @@ Bu belge, Mert’in üç işinin kapsamını ve daha sonra üretilecek çıktıl
 | ISBN zaten kayıtlı | Yeni kayıt oluşmaz; mevcut ISBN uyarısı gösterilir. |
 | Geçerli alanlar, kapak yok | Kayıt oluşur; katalogda bulunur. |
 
-**Önceki katkı:** Kadir’in kitap ekleme formu ve alan kuralları çalışması [PR #2](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/2) bu işin başlangıç kaynağıdır. Bu belge, ekip rehberindeki US-08 eşlemesine göre sonraki kapsamı ve kontrol senaryolarını düzenler; önceki katkının yazarlığı korunur.
+Kitap ekleme alan kurallarında Kadir’in [PR #2](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/2) çalışmasını temel aldım. Bu işin formunu, doğrulama akışını ve kontrol senaryolarını ben tamamlayacağım.
 
 ## US-09 — Yıpranmış kitapları bakımda işaretleme
 
@@ -50,7 +51,7 @@ Bu belge, Mert’in üç işinin kapsamını ve daha sonra üretilecek çıktıl
 2. Bakımdaki kopya ödünç verilemez ve müsait kopya sayısına katılmaz. Aynı kitabın diğer müsait kopyaları ödünç verilebilir.
 3. Kopya yeniden Müsait durumuna alındığında müsait kopya sayısı güncellenir.
 
-### Sprint sırasında hazırlanacak çıktılar
+### Sprint 2’de hazırlayacaklarım
 
 - Kopyayı Bakımda ve yeniden Müsait yapma akışı.
 - Yetki ve müsait kopya sayısı kuralları.
@@ -72,7 +73,7 @@ Bu belge, Mert’in üç işinin kapsamını ve daha sonra üretilecek çıktıl
 2. Gönderilen yorum Onay bekliyor durumundadır; onay öncesi diğer kullanıcılara gösterilmez.
 3. Görevli/admin onayladığında puan ve yorum yayımlanır; reddedilen yorum yayımlanmaz.
 
-### Sprint sırasında hazırlanacak çıktılar
+### Sprint 2’de hazırlayacaklarım
 
 - Öğrenci için puan/yorum ekran taslağı.
 - Onay bekliyor → Onaylandı / Reddedildi akışı ve görevli/admin onay taslağı.
@@ -87,6 +88,6 @@ Bu belge, Mert’in üç işinin kapsamını ve daha sonra üretilecek çıktıl
 
 ## İnceleme ve sonraki adım
 
-Başka bir ekip üyesi Jira–US eşlemesini, kabul kriterlerini ve beklenen sonuçları kontrol eder. Geri bildirimler bu belge üzerinde düzeltilir. Ekran/akış çıktıları ve senaryo sonuçları ilgili işin sprintinde hazırlanır; PR açılmış olması bu üç işin tamamlandığı anlamına gelmez.
+Kadir’in kabul kriterlerini ve kontrol senaryolarını incelemesini bekliyorum. Gelen düzeltmeleri aynı çalışma dalında yapacağım.
 
-Tamamlandı durumuna geçiş için ekip Definition of Done’ı uygulanır: kabul kriterlerini karşılayan çıktı, başka bir üyenin incelemesi ve GitHub/Jira bağlantıları.
+Sprint 2’de ekran taslaklarını ve işlem akışlarını ekleyip senaryoları bunların üzerinden kontrol edeceğim. Sonuçları test belgesine yazacağım. Kabul kriterleri karşılanıp inceleme tamamlandığında GitHub ve Jira bağlantılarını kontrol ederek işleri kapatacağım.
