@@ -25,11 +25,11 @@ Kontrol sırasında sprint henüz başlatılmamıştı. Jira’da tamamlanan iş
 
 ## 2. İncelediğim belgeler ve açık noktalar
 
-- [PR #6 — Planning](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/6): Hedef, beş Story, 15 puan ve ekip görevleri var. Esat’ın incelemesi bekleniyor. Belgede 21–28 Ekim planı yazıyor; gerçek başlangıç ve bitiş ayrıca kaydedilmeli.
+- [PR #6 — Planning](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/6): Hedef, beş Story, 15 puan ve ekip görevleri var. Esat’ın incelemesi bekleniyor. Belgede 21–28 Ekim ekip planı yazıyor; bu aralık hocanın verdiği kesin teslim tarihi değil. Gerçek başlangıç ve bitiş ayrıca kaydedilmeli.
 - [PR #7 — Eray’ın US-01–04 çıktıları](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/7): Dört ayrı iş kuralı belgesi, ortak ekran taslağı ve dokuz kontrol senaryosu var. Esat henüz inceleme göndermemiş; PR birleşmemiş.
-- US-01’in Jira başlığı hâlâ “kullanıcı girişi” diyor; açıklama ve belge öğrenci kaydını anlatıyor. Jira, Planning ve iş kuralı başlıkları öğrenci kaydı olarak eşleştirilmeli.
-- US-05, Planning’de katalog Epic’i altında; Jira’da üyelik Epic’ine bağlı. Jira’daki üst öğe Kaynak ve Kitap Envanteri olarak düzeltilmeli.
-- Test tablosunda dokuz senaryo “Geçti” olarak işaretli. Ekran ve kurallar üzerinden yapılan kontrolün gözlenen bulgusu ve kontrol eden kişi eklenmeli. Bu sonuçları çalışan yazılım üzerinde yapılmış test olarak değerlendirmedim.
+- Eray’ın US-01 işinin Jira başlığı hâlâ “kullanıcı girişi” diyor; açıklama ve belge öğrenci kaydını anlatıyor. Eray, kendi işinin Jira, Planning ve iş kuralı başlıklarını öğrenci kaydı olarak eşleştirmeli.
+- US-05 Esat’ın işi. Planning’de katalog Epic’i altında; Jira’da üyelik Epic’ine bağlı. Esat, Jira’daki üst öğeyi Kaynak ve Kitap Envanteri olarak düzeltmeli; bu Eray’ın kişisel Story görevi değil.
+- Test tablosunda dokuz senaryo “Geçti” olarak işaretli ve başlıkta ekran taslakları ile iş kuralları üzerinden doğrulandığı açıkça yazıyor. Kodlama zorunlu olmadığı için bu kontrol yöntemi proje kapsamına uygun. Gözlenen bulgu ve kontrol eden kişi bilgisini eklemek benim izlenebilirlik önerim; hocanın yönergesinde zorunlu bir sütun şartı değil. Bu ayrıntıların yokluğunu tek başına hatalı test sonucu veya kabul engeli saymıyorum.
 - Eray’ın dört Jira kaydında PR #7 ve çıktı bağlantılarını göremedim. Onay ve birleştirme sonrasında bu bağlantılar da eklenmeli.
 
 ## 3. Kabul durumu
