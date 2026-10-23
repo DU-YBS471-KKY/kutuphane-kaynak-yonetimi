@@ -1,20 +1,16 @@
-# US-01: Bir Üye Olarak Kullanıcı Girişi Yapabilme — İş Kuralları
+# US-01: Bir Üye Olarak Kullanıcı Girişi Yapabilme
 
-**Jira Kodu:** (KKY-3)
-**Sorumlu:** Eray Yakup Dağdelen  
-**Epic:** Kullanıcı ve Üye Yönetimi  
-**Story Point:** 3 | **Sprint:** Sprint 1  
-
-## Kullanıcı Hikayesi
+**Kullanıcı Hikayesi:**
 Öğrenci (üye) olarak, kütüphane sistemine kullanıcı girişimi (hesap oluşturma işlemlerimi) yapabilmek istiyorum, böylece sisteme resmi bir üye olarak tanımlanabileyim.
 
-## Kabul Kriterleri
+**Kabul Kriterleri:**
 1. Sisteme kullanıcı girişi yapılırken öğrenci numarası, ad, soyad ve kurumsal e-posta bilgileri zorunlu olarak doldurulmalıdır.
-2. Sistem, daha önce girişi yapılmış (mevcut) bir öğrenci numarası veya e-posta ile tekrar kullanıcı girişi yapılmasına izin vermemelidir.
-3. Kullanıcı tanımlama işlemi başarıyla tamamlandığında sistem onay mesajı göstermelidir.
+2. Sistem, daha önce girişi yapılmış (mevcut) bir öğrenci numarası veya e-posta ile tekrar kullanıcı girişi yapılmasına izin vermemeli ve uyarı vermelidir.
+3. Kullanıcı tanımlama işlemi başarıyla tamamlandığında sistem ekranda bir onay mesajı göstermeli ve kullanıcının kurumsal e-posta adresine bir doğrulama e-postası göndermelidir.
+4. Kullanıcı, e-postadaki bağlantıyı onayladığında "Doğrulama Bekliyor" statüsündeki hesabı "Aktif" duruma geçmeli ve sisteme giriş yapabilmelidir.
 
-## İş Kuralları ve Doğrulama Mantığı
-* **İK-01.1 (Zorunlu Alanlar):** Kullanıcı tanımlama ekranında Öğrenci Numarası, Ad, Soyad, E-posta ve Şifre alanları boş bırakılamaz.
-* **İK-01.2 (Format):** Öğrenci numarası sadece rakamlardan oluşmalı ve 9 haneli olmalıdır.
-* **İK-01.3 (Mükerrer Kullanıcı Engeli):** Veritabanında aynı öğrenci numarasına sahip başka bir kullanıcı girişi varsa işlem reddedilir ve "Bu kullanıcı sisteme zaten girilmiş" uyarısı verilir.
-* **İK-01.4 (Hesap Durumu):** Sisteme girişi yapılan yeni hesap varsayılan olarak `Doğrulama Bekliyor` statüsünde açılır.
+**İş Kuralları ve Doğrulama Mantığı:**
+* İK-01.1: Öğrenci Numarası, Ad, Soyad, E-posta ve Şifre alanları boş bırakılamaz.
+* İK-01.2: Öğrenci numarası sadece rakamlardan oluşmalı ve 9 haneli olmalıdır.
+* İK-01.3: Veritabanında aynı öğrenci numarasına sahip kayıt varsa işlem reddedilir.
+* İK-01.4: Hesap oluşturulduğunda varsayılan statü `Doğrulama Bekliyor` olur. E-posta onayı sonrası `Aktif` statüye geçer.
