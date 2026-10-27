@@ -1,3 +1,4 @@
+<img width="1545" height="565" alt="image" src="https://github.com/user-attachments/assets/2c76056d-3846-4fb0-8bda-ae3161b9299d" />
 # US-01 – US-04: Kontrol ve Kabul Test Senaryoları
 
 **Sorumlu:** Eray Yakup Dağdelen  
@@ -9,6 +10,7 @@
 | :--- | :--- | :--- | :--- | :---: |
 | **KS-01-01** | US-01 / Kriter 1 & 3 | Sistemde kayıtlı olmayan geçerli öğrenci no, ad, soyad, e-posta ve şifre girilerek "Kayıt Ol" butonuna basılır. | Kayıt oluşturulur ve doğrulama e-postası gönderildi bilgisi gösterilir. | **Geçti** |
 | **KS-01-02** | US-01 / Kriter 2 | Sistemde mevcut olan bir öğrenci numarası veya e-posta ile ikinci kez kayıt formu gönderilir. | Kayıt engellenir; "Bu kullanıcı zaten kayıtlı" uyarısı gösterilir. | **Geçti** |
+| **KS-01-03** | US-01 / Aktivasyon | Kayıt adımı sonrası e-posta adresine gelen doğrulama bağlantısına tıklanır. | Kullanıcı hesabı "Aktif" duruma geçer ve ekranda "Hesabınız başarıyla aktifleştirildi" uyarısı çıkar. | **Geçti** |
 | **KS-02-01** | US-02 / Kriter 1 | Kayıtlı ve aktif öğrenci geçerli e-posta ve şifresini girerek giriş yapar. | Kullanıcı başarılı şekilde kütüphane anasayfasına yönlendirilir. | **Geçti** |
 | **KS-02-02** | US-02 / Kriter 2 | Kullanıcı yanlış şifre veya kayıtlı olmayan e-posta ile giriş yapmayı dener. | Giriş reddedilir; "Kullanıcı adı veya şifre hatalı" uyarısı çıkar. | **Geçti** |
 | **KS-02-03** | US-02 / Kriter 3 | Giriş ekranında "Şifremi Unuttum" tıklanır ve kayıtlı e-posta girilir. | Kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilir. | **Geçti** |
