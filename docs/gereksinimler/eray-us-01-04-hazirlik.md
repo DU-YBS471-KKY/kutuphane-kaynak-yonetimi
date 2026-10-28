@@ -29,8 +29,8 @@
 ## Kabul Kriterleri
 1. Doğru e-posta ve şifre girildiğinde sistem kullanıcıyı anasayfaya yönlendirmelidir.
 2. Hatalı giriş yapıldığında ekranda "Kullanıcı adı veya şifre hatalı" uyarısı çıkmalıdır.
+3. "Şifremi Unuttum" butonuna tıklandığında kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilmelidir.
 4. Arka arkaya 3 kez hatalı giriş yapıldığında hesap geçici olarak kilitlenmeli ve kullanıcıya uyarı verilmelidir.
-5. "Şifremi Unuttum" butonuna tıklandığında kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilmelidir.
 
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-02.1 (Kimlik Doğrulama):** Giriş işlemi yalnızca `Aktif` statüsündeki kayıtlı e-posta ve eşleşen şifre ile gerçekleşir.
