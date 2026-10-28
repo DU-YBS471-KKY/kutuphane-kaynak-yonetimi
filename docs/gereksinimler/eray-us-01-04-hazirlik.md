@@ -1,13 +1,14 @@
-# US-01: Bir Üye Olarak Kullanıcı Girişi Yapabilme
+# US-01: Bir Üye Olarak Sisteme Kayıt Olabilme
 
 **Kullanıcı Hikayesi:**
-Öğrenci (üye) olarak, kütüphane sistemine kullanıcı girişimi (hesap oluşturma işlemlerimi) yapabilmek istiyorum, böylece sisteme resmi bir üye olarak tanımlanabileyim.
+Öğrenci (üye) olarak, kütüphane sistemine kullanıcı kayıtı (hesap oluşturma işlemlerimi) yapabilmek istiyorum, böylece sisteme resmi bir üye olarak tanımlanabileyim.
 
 **Kabul Kriterleri:**
-1. Sisteme kullanıcı girişi yapılırken öğrenci numarası, ad, soyad ve kurumsal e-posta bilgileri zorunlu olarak doldurulmalıdır.
-2. Sistem, daha önce girişi yapılmış (mevcut) bir öğrenci numarası veya e-posta ile tekrar kullanıcı girişi yapılmasına izin vermemeli ve uyarı vermelidir.
+1. Sisteme kullanıcı kayıtı yapılırken öğrenci numarası, ad, soyad ve kurumsal e-posta bilgileri zorunlu olarak doldurulmalıdır.
+2. Sistem, daha önce kayıt yapılmış (mevcut) bir öğrenci numarası veya e-posta ile tekrar kullanıcı kayıtı yapılmasına izin vermemeli ve uyarı vermelidir.
 3. Kullanıcı tanımlama işlemi başarıyla tamamlandığında sistem ekranda bir onay mesajı göstermeli ve kullanıcının kurumsal e-posta adresine bir doğrulama e-postası göndermelidir.
 4. Kullanıcı, e-postadaki bağlantıyı onayladığında "Doğrulama Bekliyor" statüsündeki hesabı "Aktif" duruma geçmeli ve sisteme giriş yapabilmelidir.
+5. Belirlenen şifre en az 8 karakter uzunluğunda olmalıdır.
 
 **İş Kuralları ve Doğrulama Mantığı:**
 * İK-01.1: Öğrenci Numarası, Ad, Soyad, E-posta ve Şifre alanları boş bırakılamaz.
@@ -28,12 +29,13 @@
 ## Kabul Kriterleri
 1. Doğru e-posta ve şifre girildiğinde sistem kullanıcıyı anasayfaya yönlendirmelidir.
 2. Hatalı giriş yapıldığında ekranda "Kullanıcı adı veya şifre hatalı" uyarısı çıkmalıdır.
-3. "Şifremi Unuttum" butonuna tıklandığında kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilmelidir.
+4. Arka arkaya 3 kez hatalı giriş yapıldığında hesap geçici olarak kilitlenmeli ve kullanıcıya uyarı verilmelidir.
+5. "Şifremi Unuttum" butonuna tıklandığında kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilmelidir.
 
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-02.1 (Kimlik Doğrulama):** Giriş işlemi yalnızca `Aktif` statüsündeki kayıtlı e-posta ve eşleşen şifre ile gerçekleşir.
 * **İK-02.2 (Güvenlik Mesajı):** Hatalı girişlerde hangi bilginin (e-posta mı şifre mi) yanlış olduğu açık edilmez; standart olarak "Kullanıcı adı veya şifre hatalı" mesajı gösterilir.
-* **İK-02.3 (Hatalı Giriş Sınırı):** Ardışık 5 başarısız giriş denemesinde hesap 15 dakika süreyle geçici olarak kilitlenir.
+* **İK-02.3 (Hatalı Giriş Sınırı):** 3. başarısız giriş denemesinde hesap 15 dakika süreyle geçici olarak kilitlenir.
 * **İK-02.4 (Şifre Sıfırlama Bağlantısı):** Sıfırlama bağlantısı tek kullanımlıktır ve oluşturulduktan sonra 30 dakika boyunca geçerlidir.
 
 * # US-03: Öğrenci Profil ve İletişim Bilgisi Güncelleme — İş Kuralları
@@ -50,7 +52,8 @@
 1. Öğrenci, profil ayarları sekmesinden telefon numarası ve e-posta alanlarını değiştirebilmelidir.
 2. Geçersiz bir e-posta formatı girildiğinde sistem kaydetmemeli ve hata vermelidir.
 3. Değişiklikler kaydedildiğinde ekranda "Bilgileriniz başarıyla güncellendi" onay mesajı çıkmalıdır.
-
+4. Kullanıcı profil ekranından bildirim tercihlerini (örneğin e-posta ile bildirim) seçebilmeli ve kaydedebilmelidir.
+5. 
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-03.1 (Değiştirilebilir Alanlar):** Öğrenci yalnızca telefon numarası ve e-posta adresini güncelleyebilir; Öğrenci Numarası ve Ad/Soyad alanları salt okunurdur (değiştirilemez).
 * **İK-03.2 (Format Kontrolü):** E-posta adresi `@` ve geçerli alan adı içermelidir. Telefon numarası 10 veya 11 haneli rakamlardan oluşmalıdır.
