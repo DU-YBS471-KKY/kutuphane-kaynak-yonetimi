@@ -54,6 +54,8 @@
 | E-Posta Adresi           : [ eray.yeni@duzce.edu.tr ] |
 | Telefon Numarası         : [ 0555 123 45 67         ] |
 |                                                       |
+|             [x] Bildirimleri e-posta ile al           |
+|                                                       |
 |                [ DEĞİŞİKLİKLERİ KAYDET ]              |
 +-------------------------------------------------------+
 | (✓) "Bilgileriniz başarıyla güncellendi."             |
