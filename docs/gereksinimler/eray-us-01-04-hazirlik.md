@@ -8,6 +8,7 @@
 2. Sistem, daha önce kayıt yapılmış (mevcut) bir öğrenci numarası veya e-posta ile tekrar kullanıcı kayıtı yapılmasına izin vermemeli ve uyarı vermelidir.
 3. Kullanıcı tanımlama işlemi başarıyla tamamlandığında sistem ekranda bir onay mesajı göstermeli ve kullanıcının kurumsal e-posta adresine bir doğrulama e-postası göndermelidir.
 4. Kullanıcı, e-postadaki bağlantıyı onayladığında "Doğrulama Bekliyor" statüsündeki hesabı "Aktif" duruma geçmeli ve sisteme giriş yapabilmelidir.
+5. Belirlenen şifre en az 8 karakter uzunluğunda olmalıdır.
 
 **İş Kuralları ve Doğrulama Mantığı:**
 * İK-01.1: Öğrenci Numarası, Ad, Soyad, E-posta ve Şifre alanları boş bırakılamaz.
@@ -28,7 +29,8 @@
 ## Kabul Kriterleri
 1. Doğru e-posta ve şifre girildiğinde sistem kullanıcıyı anasayfaya yönlendirmelidir.
 2. Hatalı giriş yapıldığında ekranda "Kullanıcı adı veya şifre hatalı" uyarısı çıkmalıdır.
-3. "Şifremi Unuttum" butonuna tıklandığında kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilmelidir.
+4. Arka arkaya 3 kez hatalı giriş yapıldığında hesap geçici olarak kilitlenmeli ve kullanıcıya uyarı verilmelidir.
+5. "Şifremi Unuttum" butonuna tıklandığında kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilmelidir.
 
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-02.1 (Kimlik Doğrulama):** Giriş işlemi yalnızca `Aktif` statüsündeki kayıtlı e-posta ve eşleşen şifre ile gerçekleşir.
