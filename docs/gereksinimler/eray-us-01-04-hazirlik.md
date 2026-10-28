@@ -33,7 +33,7 @@
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-02.1 (Kimlik Doğrulama):** Giriş işlemi yalnızca `Aktif` statüsündeki kayıtlı e-posta ve eşleşen şifre ile gerçekleşir.
 * **İK-02.2 (Güvenlik Mesajı):** Hatalı girişlerde hangi bilginin (e-posta mı şifre mi) yanlış olduğu açık edilmez; standart olarak "Kullanıcı adı veya şifre hatalı" mesajı gösterilir.
-* **İK-02.3 (Hatalı Giriş Sınırı):** Ardışık 5 başarısız giriş denemesinde hesap 15 dakika süreyle geçici olarak kilitlenir.
+* **İK-02.3 (Hatalı Giriş Sınırı):** Ardışık 3 başarısız giriş denemesinde hesap 15 dakika süreyle geçici olarak kilitlenir.
 * **İK-02.4 (Şifre Sıfırlama Bağlantısı):** Sıfırlama bağlantısı tek kullanımlıktır ve oluşturulduktan sonra 30 dakika boyunca geçerlidir.
 
 * # US-03: Öğrenci Profil ve İletişim Bilgisi Güncelleme — İş Kuralları
