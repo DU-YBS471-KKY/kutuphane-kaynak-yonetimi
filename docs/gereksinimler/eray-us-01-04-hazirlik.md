@@ -1,4 +1,4 @@
-# US-01: Bir Üye Olarak Kullanıcı kayıtı Yapabilme
+# US-01: Bir Üye Olarak Sisteme Kayıt Olabilme
 
 **Kullanıcı Hikayesi:**
 Öğrenci (üye) olarak, kütüphane sistemine kullanıcı kayıtı (hesap oluşturma işlemlerimi) yapabilmek istiyorum, böylece sisteme resmi bir üye olarak tanımlanabileyim.
@@ -52,7 +52,8 @@
 1. Öğrenci, profil ayarları sekmesinden telefon numarası ve e-posta alanlarını değiştirebilmelidir.
 2. Geçersiz bir e-posta formatı girildiğinde sistem kaydetmemeli ve hata vermelidir.
 3. Değişiklikler kaydedildiğinde ekranda "Bilgileriniz başarıyla güncellendi" onay mesajı çıkmalıdır.
-
+4. Kullanıcı profil ekranından bildirim tercihlerini (örneğin e-posta ile bildirim) seçebilmeli ve kaydedebilmelidir.
+5. 
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-03.1 (Değiştirilebilir Alanlar):** Öğrenci yalnızca telefon numarası ve e-posta adresini güncelleyebilir; Öğrenci Numarası ve Ad/Soyad alanları salt okunurdur (değiştirilemez).
 * **İK-03.2 (Format Kontrolü):** E-posta adresi `@` ve geçerli alan adı içermelidir. Telefon numarası 10 veya 11 haneli rakamlardan oluşmalıdır.
