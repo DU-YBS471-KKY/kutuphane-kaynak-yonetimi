@@ -4,7 +4,7 @@ Sorumlu: Kübra Şen
 Tarih: 22 Ekim 2026  
 Durum: İncelemeye hazır gereksinim taslağı; Story teslimi değildir.
 
-Bu belge, YBS 471 proje planının 5, 9, 10 ve 12. slaytları, 19 Ekim tarihli Ekip Rehberi ve 22 Ekim'de kontrol edilen Jira kayıtlarına dayanır. Story cümleleri ve kabul kriterleri aşağıda Jira ile aynı tutulmuştur. Ek kararlar PO onayı bekler. Çalışan yazılım, tamamlanmış ekran taslağı veya yürütülmüş test sonucu içermez.
+Bu belgeyi YBS 471 proje planının 5, 9, 10 ve 12. slaytlarını, 19 Ekim tarihli Ekip Rehberi'ni ve 22 Ekim'de kontrol ettiğim Jira kayıtlarını esas alarak hazırladım. Story cümlelerini ve kabul kriterlerini Jira ile eşledim. Ek kararlar için PO onayını bekliyorum. Bu hazırlıkta çalışan yazılım, tamamlanmış ekran taslağı veya yürütülmüş test sonucu sunmadım.
 
 ## İş ve sprint eşlemesi
 
@@ -98,15 +98,15 @@ Bunlar kabul edilmiş yeni kurallar değildir; Jira kriterlerini değiştirmez.
 - US-14/17: Birden fazla kopyanın aynı anda iadesinde tahsis sırası ve bakımdan çıkan kopya için rezervasyon bildirimini başlatacak olay.
 - US-15: Geçmiş kayıtların sıralama, filtreleme ve saklama süresi.
 
-## Bağımlılıklar ve teslim kontrolü
+## Bağımlılıklar ve teslim takibim (28 Ekim 2026)
 
 US-14 rezervasyon sırası, US-17'nin alıcı seçimine girdidir. [US-12 / KKY-11](https://dagdelen41.atlassian.net/browse/KKY-11) kriterlerine göre hasarlı iade Bakımda işaretlenir ve kullanılabilir stoğa eklenmez; [US-09 / KKY-19](https://dagdelen41.atlassian.net/browse/KKY-19) bakımdaki kopyanın ödünç verilemeyeceğini belirtir. Dolayısıyla US-17 bildirimi yalnızca iade edilen kopya kullanılabilir olduğunda oluşur. Bu mevcut bir bağımlılıktır, yeni PO kararı değildir. [US-13 / KKY-12](https://dagdelen41.atlassian.net/browse/KKY-12) için başka öğrencinin rezervasyonu varsa uzatma reddedilir; uzatma kabul edildiğinde US-15 ve US-16 güncel iade tarihini esas alır. US-02 oturum bilgisiyle yetki tutarlılığı ilgili Story sahipleriyle kontrol edilmelidir.
 
-- [x] KKY-21–24'ün sorumlusu, Epic'i ve doğru Story Points alanındaki 5/2/3/3 puanları kontrol edildi.
-- [x] Dört Story'nin Jira cümlesi ve üçer kabul kriteri bu belgede eşlendi.
-- [x] Trello'da Kübra üyesi, Jira linki ve planlanan sprinti olan dört Backlog kartı oluşturuldu.
-- [ ] Eray gereksinim belgesini inceleyip geri bildirim verecek.
-- [ ] Bağımsız onay sonrası PR, Create a merge commit ile develop'a alınacak.
-- [ ] Birleştirme sonrası Jira belge linkleri develop veya kalıcı commit bağlantısına güncellenecek.
-- [ ] Sprint 3–4'te ekran/akış taslakları, mesaj örnekleri ve gerçek kontrol sonuçları eklenecek.
-- [ ] Story kabul kriterleri ve tüm çıktılar incelenmeden Jira'da Tamamlandı yapılmayacak.
+- [x] KKY-21–24'ün sorumlusunu, Epic'ini ve doğru Story Points alanındaki 5/2/3/3 puanlarını kontrol ettim.
+- [x] Dört Story'min Jira cümlelerini ve üçer kabul kriterini bu belgede eşledim.
+- [x] Trello'da kendimi üye olarak eklediğim, Jira bağlantısı ve planlanan sprinti bulunan dört Backlog kartı oluşturdum.
+- [x] Eray'dan gereksinim belgem için inceleme ve geri bildirim aldım.
+- [x] PR'ım bağımsız onay sonrası develop'a birleşti.
+- [x] Jira belge bağlantılarımı kalıcı commit sürümüne güncelledim.
+- [ ] Sprint 3–4'te ekran/akış taslaklarımı, mesaj örneklerimi ve gerçek kontrol sonuçlarımı ekleyeceğim.
+- [ ] Story kabul kriterleri ve tüm çıktılar incelenmeden işlerimi Jira'da Tamamlandı yapmayacağım.
