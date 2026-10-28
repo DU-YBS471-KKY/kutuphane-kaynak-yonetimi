@@ -14,5 +14,6 @@
 | **KS-02-03** | US-02 / Kriter 3 | Giriş ekranında "Şifremi Unuttum" tıklanır ve kayıtlı e-posta girilir. | Kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilir. | **Geçti** |
 | **KS-03-01** | US-03 / Kriter 1 & 3 | Öğrenci profil ayarlarından geçerli yeni telefon ve e-posta girip kaydeder. | Bilgiler güncellenir ve "Bilgileriniz başarıyla güncellendi" mesajı çıkar. | **Geçti** |
 | **KS-03-02** | US-03 / Kriter 2 | Öğrenci e-posta alanına `@` işareti olmayan geçersiz bir metin girip kaydetmeyi dener. | İşlem kaydedilmez ve geçersiz e-posta formatı hatası gösterilir. | **Geçti** |
+| **KS-03-03** | US-03 / Bildirim Tercihi | Kullanıcı profil ayarlarından 'Bildirimleri e-posta ile al' seçeneğini işaretleyip kaydeder. | Tercih başarıyla güncellenir ve ekranda 'Bilgileriniz güncellendi' mesajı çıkar. | **Geçti** |
 | **KS-04-01** | US-04 / Kriter 1 & 2 | Admin yetki panelini açar, listedeki bir personele "Görevli" yetkisi verir ve ardından geri alır. | Liste görüntülenir; yetki durumu anlık olarak güncellenir. | **Geçti** |
 | **KS-04-02** | US-04 / Kriter 3 | Görevli yetkisi olmayan bir hesap kitap ekleme/ödünç verme ekranına erişmeye çalışır. | Erişim engellenir ve "Yetkisiz Erişim" uyarısı gösterilir. | **Geçti** |
