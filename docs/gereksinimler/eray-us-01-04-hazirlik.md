@@ -53,7 +53,6 @@
 2. Geçersiz bir e-posta formatı girildiğinde sistem kaydetmemeli ve hata vermelidir.
 3. Değişiklikler kaydedildiğinde ekranda "Bilgileriniz başarıyla güncellendi" onay mesajı çıkmalıdır.
 4. Kullanıcı profil ekranından bildirim tercihlerini (örneğin e-posta ile bildirim) seçebilmeli ve kaydedebilmelidir.
-5. 
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-03.1 (Değiştirilebilir Alanlar):** Öğrenci yalnızca telefon numarası ve e-posta adresini güncelleyebilir; Öğrenci Numarası ve Ad/Soyad alanları salt okunurdur (değiştirilemez).
 * **İK-03.2 (Format Kontrolü):** E-posta adresi `@` ve geçerli alan adı içermelidir. Telefon numarası 10 veya 11 haneli rakamlardan oluşmalıdır.
