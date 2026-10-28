@@ -1,11 +1,11 @@
-# US-01: Bir Üye Olarak Kullanıcı Girişi Yapabilme
+# US-01: Bir Üye Olarak Kullanıcı kayıtı Yapabilme
 
 **Kullanıcı Hikayesi:**
-Öğrenci (üye) olarak, kütüphane sistemine kullanıcı girişimi (hesap oluşturma işlemlerimi) yapabilmek istiyorum, böylece sisteme resmi bir üye olarak tanımlanabileyim.
+Öğrenci (üye) olarak, kütüphane sistemine kullanıcı kayıtı (hesap oluşturma işlemlerimi) yapabilmek istiyorum, böylece sisteme resmi bir üye olarak tanımlanabileyim.
 
 **Kabul Kriterleri:**
-1. Sisteme kullanıcı girişi yapılırken öğrenci numarası, ad, soyad ve kurumsal e-posta bilgileri zorunlu olarak doldurulmalıdır.
-2. Sistem, daha önce girişi yapılmış (mevcut) bir öğrenci numarası veya e-posta ile tekrar kullanıcı girişi yapılmasına izin vermemeli ve uyarı vermelidir.
+1. Sisteme kullanıcı kayıtı yapılırken öğrenci numarası, ad, soyad ve kurumsal e-posta bilgileri zorunlu olarak doldurulmalıdır.
+2. Sistem, daha önce kayıt yapılmış (mevcut) bir öğrenci numarası veya e-posta ile tekrar kullanıcı kayıtı yapılmasına izin vermemeli ve uyarı vermelidir.
 3. Kullanıcı tanımlama işlemi başarıyla tamamlandığında sistem ekranda bir onay mesajı göstermeli ve kullanıcının kurumsal e-posta adresine bir doğrulama e-postası göndermelidir.
 4. Kullanıcı, e-postadaki bağlantıyı onayladığında "Doğrulama Bekliyor" statüsündeki hesabı "Aktif" duruma geçmeli ve sisteme giriş yapabilmelidir.
 
@@ -33,7 +33,7 @@
 ## İş Kuralları ve Doğrulama Mantığı
 * **İK-02.1 (Kimlik Doğrulama):** Giriş işlemi yalnızca `Aktif` statüsündeki kayıtlı e-posta ve eşleşen şifre ile gerçekleşir.
 * **İK-02.2 (Güvenlik Mesajı):** Hatalı girişlerde hangi bilginin (e-posta mı şifre mi) yanlış olduğu açık edilmez; standart olarak "Kullanıcı adı veya şifre hatalı" mesajı gösterilir.
-* **İK-02.3 (Hatalı Giriş Sınırı):** Ardışık 3 başarısız giriş denemesinde hesap 15 dakika süreyle geçici olarak kilitlenir.
+* **İK-02.3 (Hatalı Giriş Sınırı):** 3. başarısız giriş denemesinde hesap 15 dakika süreyle geçici olarak kilitlenir.
 * **İK-02.4 (Şifre Sıfırlama Bağlantısı):** Sıfırlama bağlantısı tek kullanımlıktır ve oluşturulduktan sonra 30 dakika boyunca geçerlidir.
 
 * # US-03: Öğrenci Profil ve İletişim Bilgisi Güncelleme — İş Kuralları
