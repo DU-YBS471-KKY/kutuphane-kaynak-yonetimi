@@ -5,49 +5,49 @@ Değerlendirme tarihi: 28 Ekim 2026
 İlk hazırlık: 27 Ekim 2026  
 Planlanan sprint: 21-28 Ekim 2026  
 Jira'da kaydedilen sprint aralığı: 23-28 Ekim 2026  
-Durum: Kübra'nın yazılı değerlendirmesi tamamlandı; Enes'in ve diğer üyelerin katkıları sonradan eklenecek.
+Durum: Yazılı değerlendirmemi tamamladım; Enes'in ve diğer üyelerin katkılarını geldikçe ekleyeceğim.
 
-Bu sürümü mevcut proje kayıtları üzerinden Kübra hazırladı. Görev paylaşımında Retro sorumluları Kübra ve Enes'tir; Enes kendi gözlemlerini ilettikten sonra katkısı adıyla işlenecek ve son metni gözden geçirebilecek. Henüz ekip görüşü eklenmedi. Toplu toplantı ve katılımcı kaydı oluşturulmadı; Keep/Improve maddeleri Kübra'nın önerileri, aşağıdaki Try ise Kübra'nın üstlendiği kişisel takip eylemidir.
+Bu değerlendirmeyi mevcut proje kayıtları üzerinden hazırladım. Görev paylaşımında Retro'yu Enes'le birlikte üstleniyoruz. Enes kendi gözlemlerini ilettiğinde katkısını adıyla işleyeceğim ve son metni gözden geçirmesini isteyeceğim. Henüz rapora ekip görüşü eklemedim. Keep/Improve bölümlerinde kendi önerilerimi, Try bölümünde ise kişisel olarak üstlendiğim takip eylemini yazdım; ortak toplantı veya ekip onayı kaydı oluşturmadım.
 
-## Gözlem ve kanıtlar
+## Gözlemlerim ve kanıtlar
 
-- [PR #5](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/5) ve [PR #11](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/11) bağımsız incelemeyle develop'a birleşti. Hazırlık belgeleri ve kriter kontrolü izlenebilir hale geldi.
-- 27 Ekim'deki [kriter kontrolü](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/82425dbf5f60b6eed869c006643ad547061f4617/sprintler/s1/kabul-kriteri-kontrolu.md), US-01-03 için üç plan/Jira/belge farkını kaydetti. Bu tarihli bulguların güncel kapanışı ilgili PO kararı ve düzeltme kanıtıyla ayrıca kontrol edilecek.
-- 28 Ekim tarihli [Review PR #17](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/17) de onaylanıp birleşti. Review kaydı kapanış öncesinde dört Done, bir In Progress ve 12/15 SP bildiriyor; nihai kapanış puanı ve grafikler Review sorumlularınca güncellenecek.
-- 27 Ekim'de kendi US-14/16/17 Jira tarih alanlarım planla eşitlendi. 22 Ekim faaliyetimi ortak günlüğe 26 Ekim'de işlemem, aynı gün kayıt tutmayı iyileştirmem gerektiğini gösterdi.
+- Hazırladığım [PR #5](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/5) ve [PR #11](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/11) bağımsız incelemeyle develop'a birleşti. Gereksinim hazırlığımı ve kriter kontrolümü bağlantılarıyla izlenebilir hale getirdim.
+- 27 Ekim'deki [kriter kontrolümde](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/82425dbf5f60b6eed869c006643ad547061f4617/sprintler/s1/kabul-kriteri-kontrolu.md) US-01-03 için üç plan/Jira/belge farkı kaydettim. Bu tarihli bulguların güncel kapanışını ilgili PO kararı ve düzeltme kanıtıyla ayrıca kontrol edeceğim.
+- 28 Ekim tarihli [Review PR #17](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/17) için onay ve birleşme kaydını doğruladım. Review'da kapanış öncesi dört Done, bir In Progress ve 12/15 SP kaydedilmiş. Nihai kapanış puanı ve grafikler için Review sorumlularının güncellemesini esas alacağım.
+- 27 Ekim'de kendi US-14/16/17 Jira tarih alanlarımı planla eşitledim. 22 Ekim faaliyetimi ortak günlüğe 26 Ekim'de işlediğim için aynı gün kayıt tutmayı iyileştirmem gerektiğini gördüm.
 
-## Keep - Devam edilecekler
+## Keep - Devam edilmesini önerdiklerim
 
-| No | Öneri | Öneren |
+| No | Önerim | Öneren |
 | --- | --- | --- |
-| 1 | Jira, Trello, belge ve PR bağlantılarıyla izlenebilirliği korumak. | Kübra Şen |
-| 2 | Kişisel hesaplarla çalışmak ve bağımsız inceleme sonrası PR birleştirmek. | Kübra Şen |
-| 3 | Gereksinim hazırlığını asıl Story teslimi ve uygulanmış kontrol sonucundan ayrı kaydetmek. | Kübra Şen |
+| 1 | Jira, Trello, belge ve PR bağlantılarıyla izlenebilirliği korumayı öneriyorum. | Kübra Şen |
+| 2 | Kişisel hesaplarla çalışmaya ve bağımsız inceleme sonrası PR birleştirmeye devam etmemizi öneriyorum. | Kübra Şen |
+| 3 | Gereksinim hazırlığını asıl Story teslimi ve uygulanmış kontrol sonucundan ayrı kaydetmeye devam etmeyi öneriyorum. | Kübra Şen |
 
-## Improve - İyileştirilecekler
+## Improve - İyileştirilmesini önerdiklerim
 
-| No | Gözlem / öneri | Öneren |
+| No | Gözlemim / önerim | Öneren |
 | --- | --- | --- |
-| 1 | Plan, Jira, belge ve senaryo tutarlılığını teslim öncesinde kontrol etmek; kural farklarını PO kararı ve düzeltme kanıtıyla izlemek. | Kübra Şen |
-| 2 | Jira sprint ataması ile başlangıç/bitiş alanlarını birlikte kontrol etmek; takvim değişikliğinin kaynağını belirtmek. | Kübra Şen |
-| 3 | Günlük faaliyetleri aynı gün kaydetmek ve raporları kapanış gününe yığmadan hazırlamak. | Kübra Şen |
+| 1 | Plan, Jira, belge ve senaryo tutarlılığını teslim öncesinde kontrol etmeyi; kural farklarını PO kararı ve düzeltme kanıtıyla izlemeyi öneriyorum. | Kübra Şen |
+| 2 | Jira sprint ataması ile başlangıç/bitiş alanlarını birlikte kontrol etmeyi ve takvim değişikliğinin kaynağını belirtmeyi öneriyorum. | Kübra Şen |
+| 3 | Günlük faaliyetlerimi aynı gün kaydetmeyi ve raporları kapanış gününe yığmadan hazırlamayı hedefliyorum. | Kübra Şen |
 
-## Try - Kübra'nın üstlendiği sonraki sprint eylemi
+## Try - Sonraki sprint için üstlendiğim eylem
 
-| Alan | Takip |
+| Alan | Takibim |
 | --- | --- |
-| Eylem | Sprint 2'de US-06-10 için plan-Jira-belge-senaryo eşleştirme kontrol listesi hazırlayıp mevcut çıktıları incelemek. |
-| Sorumlu | Kübra Şen. Düzeltme veya kural kararı gerektiren maddeler ilgili Story sahibine/PO'ya önerilecek; başkaları adına taahhüt verilmedi. |
-| Takvim | İlk liste: 29 Ekim 2026. Son kontrol ve sonuç kaydı: planlanan Sprint 2 sonu, 4 Kasım 2026. |
-| Kontrol yöntemi | Beş Story'nin her kabul kriteri için kaynak/kanıt bağlantısı ve Uyumlu / Fark var / Kanıt bekleniyor durumu; açık fark sayısı ve yeniden kontrol tarihi kaydedilecek. |
-| Başarı ölçütü | Beş Story'nin tamamının listelenmesi ve her kriterin kanıt veya açık bekleme gerekçesiyle izlenebilir olması. |
+| Eylem | Sprint 2'de US-06-10 için plan-Jira-belge-senaryo eşleştirme kontrol listesi hazırlayıp mevcut çıktıları inceleyeceğim. |
+| Sorumlu | Kübra Şen. Kontrolü ve takibini ben yapacağım; düzeltme veya kural kararı gereken maddeleri ilgili Story sahibine/PO'ya ileteceğim. |
+| Takvim | İlk listeyi 29 Ekim 2026'da hazırlayacağım. Son kontrolü ve sonuç kaydını planlanan Sprint 2 sonu olan 4 Kasım 2026'da yapacağım. |
+| Kontrol yöntemi | Beş Story'nin her kabul kriteri için kaynak/kanıt bağlantısını, Uyumlu / Fark var / Kanıt bekleniyor durumunu, açık fark sayısını ve yeniden kontrol tarihini kaydedeceğim. |
+| Başarı ölçütü | Beş Story'nin tamamını listeleyip her kriteri kanıt veya açık bekleme gerekçesiyle izlenebilir hale getirmeyi hedefliyorum. |
 
-## Sonradan eklenecek katkılar
+## Sonradan ekleyeceğim katkılar
 
-Enes'ten kendi çalışmasında iyi giden bir uygulama, yaşadığı bir güçlük ve sonraki sprint için bir öneri bekleniyor. Gerçek katkı geldiğinde öneren adıyla ilgili tabloya eklenecek; Enes kendi görüşlerinin doğru aktarıldığını kontrol edecek. Diğer üyelerin geri bildirimleri ve ekipçe kabul edilen kararlar da kaynağı/tarihiyle ayrıca işlenecek. Mevcut öneriler ekipçe onaylanmış karar olarak gösterilmedi.
+Enes'ten kendi çalışmasında iyi giden bir uygulama, yaşadığı bir güçlük ve sonraki sprint için bir öneri bekliyorum. Katkısı geldiğinde öneren adıyla ilgili tabloya ekleyeceğim ve görüşlerinin doğru aktarıldığını kontrol etmesini isteyeceğim. Diğer üyelerin geri bildirimlerini ve ekipçe kabul edilen kararları da kaynağı/tarihiyle ayrıca işleyeceğim. Şu anki önerilerimi ekipçe onaylanmış karar olarak kaydetmedim.
 
-## İleri tarihli kişisel takip
+## İleri tarihli kişisel takibim
 
-Eray'ın PR #5 inceleme notuna göre US-14-17 teslimleri Sprint 3 ve 4'te dört ayrı Story dosyasıyla hazırlanacak. Ekran/akış çıktıları ve uygulanmış senaryo sonuçları ilgili sprintte eklenecek; hazırlık PR'ının birleşmesi dört Story'nin tamamlandığı anlamına gelmez.
+Eray'ın PR #5 inceleme notuna göre US-14-17 teslimlerimi Sprint 3 ve 4'te dört ayrı Story dosyasıyla hazırlayacağım. Ekran/akış çıktılarımı ve uygulanmış senaryo sonuçlarımı ilgili sprintte ekleyeceğim; hazırlık PR'ımın birleşmesini dört Story'nin tamamlanması olarak değerlendirmiyorum.
 
 [Ortak Sprint 1 raporu](https://docs.google.com/document/d/1IX7KqhIBBCtKO-QIxZ8Pj1QFw0yYov0M2tPioCW0bQs/edit)
