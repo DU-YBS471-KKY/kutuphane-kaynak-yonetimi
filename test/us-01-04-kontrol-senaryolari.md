@@ -14,7 +14,7 @@
 | **KS-02-01** | US-02 / Kriter 1 | Kayıtlı ve aktif öğrenci geçerli e-posta ve şifresini girerek giriş yapar. | Kullanıcı başarılı şekilde kütüphane anasayfasına yönlendirilir. | **Geçti** |
 | **KS-02-02** | US-02 / Kriter 2 | Kullanıcı yanlış şifre veya kayıtlı olmayan e-posta ile giriş yapmayı dener. | Giriş reddedilir; "Kullanıcı adı veya şifre hatalı" uyarısı çıkar. | **Geçti** |
 | **KS-02-03** | US-02 / Kriter 3 | Giriş ekranında "Şifremi Unuttum" tıklanır ve kayıtlı e-posta girilir. | Kayıtlı e-posta adresine şifre sıfırlama bağlantısı gönderilir. | **Geçti** |
-| **KS-02-04** | US-02 / Hatalı Giriş Kilidi | Kullanıcı arka arkaya 3 kez hatalı e-posta veya şifre ile giriş yapmayı dener. | 3. başarısız giriş denemesinin ardından ekranda "Hesabınız geçici olarak kilitlenmiştir" uyarısı çıkar ve sisteme giriş engellenir. | **Geçti** |
+| **KS-02-04** | US-02 / Kriter 4 | Kullanıcı arka arkaya 3 kez hatalı e-posta veya şifre ile giriş yapmayı dener. | 3. başarısız giriş denemesinin ardından ekranda "Hesabınız geçici olarak kilitlenmiştir" uyarısı çıkar ve sisteme giriş engellenir. | **Geçti** |
 | **KS-03-01** | US-03 / Kriter 1 & 3 | Öğrenci profil ayarlarından geçerli yeni telefon ve e-posta girip kaydeder. | Bilgiler güncellenir ve "Bilgileriniz başarıyla güncellendi" mesajı çıkar. | **Geçti** |
 | **KS-03-02** | US-03 / Kriter 2 | Öğrenci e-posta alanına `@` işareti olmayan geçersiz bir metin girip kaydetmeyi dener. | İşlem kaydedilmez ve geçersiz e-posta formatı hatası gösterilir. | **Geçti** |
 | **KS-03-03** | US-03 / Bildirim Tercihi | Kullanıcı profil ayarlarından "Bildirimleri e-posta ile al" seçeneğini işaretleyip kaydeder. | Tercih güncellenir ve "Bilgileriniz güncellendi" mesajı çıkar. | **Geçti** |
