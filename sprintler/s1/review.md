@@ -31,7 +31,7 @@ Burndown'da US-05'in yeniden açılıp 28 Ekim saat 22.58'de tekrar tamamlandı�
 
 US-02 kriter atfı düzeltildi. US-05'in son senaryosu ortak depoya girdi; ancak test tablosundaki kriter etiketleri için küçük bir belge düzeltmesi gerekiyor: yazar/ISBN araması kriter 1, sonuç alanları kriter 3, sonuç bulunamaması kriter 4 ile eşleştirilmeli. Esat'ın bu atıfları düzeltmesini takip edeceğim; bu madde Jira'daki kapanış sonucunu değiştirmiyor.
 
-Sprint 2'de kendi US-08–10 ekran, işlem akışı ve belge kontrolü çalışmalarımı hazırlayıp bağımsız incelemeye sunacağım.
+29 Ekim ek kaydım: Sprint 1 kapanış raporum [PR #24](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/24), Eray'ın onayıyla 12.33'te develop dalına birleştirildi. Sprint 2'deki US-08–10 ekran, işlem akışı ve belge kontrollerim de Kübra'nın onayladığı [PR #25](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25) ile ortak depoya girdi; üç Jira ve Trello kartımı tamamlandı durumuna aldım.
 
 ## 4. Kapanış kanıtları
 
