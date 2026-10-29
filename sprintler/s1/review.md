@@ -1,52 +1,60 @@
 # Sprint 1 Review Raporu
 
 **Hazırlayan:** Mert Seçkin  
-**Kontrol tarihi:** 28 Ekim 2026, sprint kapanmadan önce  
-**Planlanan tarih:** 21–28 Ekim 2026  
-**Gerçek başlangıç:** 23 Ekim 2026  
-**Gerçek bitiş:** Sprint Jira’da hâlâ açık  
+**Son kontrol:** 29 Ekim 2026  
+**Planlanan aralık:** 21–28 Ekim 2026  
+**Gerçek başlangıç:** 23 Ekim 2026, 23.09  
+**Gerçek bitiş:** 28 Ekim 2026, 23.37  
 **PO:** Eray Yakup Dağdelen | **SM:** Esat Kor
 
-## 1. Sprint hedefi ve mevcut sonuç
+## 1. Sprint sonucu
 
-Öğrenci kaydı, giriş ve şifre sıfırlama, profil güncelleme, personel yetkilendirme ve kitap arama için gereksinimleri, ekran taslaklarını ve kontrol senaryolarını inceledim. Jira’da ilk dört iş Done, kitap arama In Progress durumunda. Mevcut sonuç 4/5 iş ve 12/15 SP (%80). Bu değer kapanış öncesindeki Jira durumudur; nihai sprint sonucu henüz oluşmadı.
+Sprint 1'in kapanışını Jira Sprint Raporu ve Burndown geçmişinden doğruladım. Esat sprinti 28 Ekim saat 23.37'de kapatmış. Beş işin tamamı Done; planlanan 15 SP'nin 15'i tamamlanmış (%100), sonraki sprinte devreden iş yok. Kayıt, giriş, profil, yetkilendirme ve kitap arama için gereksinim, ekran taslağı ve kontrol senaryoları ortak depoda bulunuyor.
 
-## 2. İşler ve çıktı bağlantıları
-
-| İş | Sorumlu | SP | Jira durumu | İncelediğim çıktı |
+| İş | Sorumlu | SP | Son durum | Çıktı ve inceleme |
 |---|---|---:|---|---|
-| [US-01 / KKY-3](https://dagdelen41.atlassian.net/browse/KKY-3) Öğrenci kaydı | Eray | 3 | Done | Kayıt, e-posta aktivasyonu ve kısa şifre kontrolü; [PR #7](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/7), [#12](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/12), [#13](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/13) birleşti. |
-| [US-02 / KKY-4](https://dagdelen41.atlassian.net/browse/KKY-4) Giriş ve şifre sıfırlama | Eray | 2 | Done | Giriş, sıfırlama ve üç hatalı girişte kilit senaryoları ortak depoda; kriter atıflarında düzeltme gerekiyor. |
-| [US-03 / KKY-5](https://dagdelen41.atlassian.net/browse/KKY-5) Profil güncelleme | Eray | 2 | Done | Bildirim tercihi kriteri ve senaryosu eklendi; ekran kutusu [PR #16](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/16) ile birleşti. |
-| [US-04 / KKY-6](https://dagdelen41.atlassian.net/browse/KKY-6) Personel yetkilendirme | Eray | 5 | Done | Yetki verme, geri alma ve yetkisiz erişim kuralları, ekranı ve senaryoları ortak depoda. |
-| [US-05 / KKY-15](https://dagdelen41.atlassian.net/browse/KKY-15) Kitap arama | Esat | 3 | In Progress | Kategori filtresi, sonuç alanları ve dört senaryo [PR #15](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/15) ile birleşti. Sonuç bulunamama senaryosu sonradan dala eklendi; henüz yeni PR’a alınmadı. |
+| [US-01 / KKY-3](https://dagdelen41.atlassian.net/browse/KKY-3) Öğrenci kaydı | Eray | 3 | Done | [PR #7](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/7), [#12](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/12), [#13](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/13): kayıt, aktivasyon ve şifre kontrolleri. |
+| [US-02 / KKY-4](https://dagdelen41.atlassian.net/browse/KKY-4) Giriş ve şifre sıfırlama | Eray | 2 | Done | [PR #19](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/19): kriterler testteki sırayla eşleştirildi; sıfırlama kriter 3, kilit kriter 4. |
+| [US-03 / KKY-5](https://dagdelen41.atlassian.net/browse/KKY-5) Profil güncelleme | Eray | 2 | Done | [PR #16](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/16): bildirim tercihi ekran seçeneği ortak depoya alındı. |
+| [US-04 / KKY-6](https://dagdelen41.atlassian.net/browse/KKY-6) Personel yetkilendirme | Eray | 5 | Done | [PR #7](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/7) ve [#13](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/13): yetki verme, geri alma ve yetkisiz erişim belgeleri. |
+| [US-05 / KKY-15](https://dagdelen41.atlassian.net/browse/KKY-15) Kitap arama | Esat | 3 | Done | [PR #15](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/15) ve [#23](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/23): kategori filtresi, sonuç alanları ve sonuç bulunamama senaryosu. |
 
-US-01–04 dosyalarının güncel sürümü: [gereksinimler](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/dd6b86035a3986a986ad6bcaf3e572f8dc341408/docs/gereksinimler/eray-us-01-04-hazirlik.md), [ekran taslakları](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/dd6b86035a3986a986ad6bcaf3e572f8dc341408/tasarim/us-01-04-kullanici-yonetimi-ekran-taslaklari.md), [kontrol senaryoları](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/dd6b86035a3986a986ad6bcaf3e572f8dc341408/test/us-01-04-kontrol-senaryolari.md).
+## 2. İnceleme ve geri bildirimler
 
-US-05: [gereksinimler](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/dd6b86035a3986a986ad6bcaf3e572f8dc341408/docs/gereksinimler/esat-us-05-07-hazirlik.md), [ekran](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/dd6b86035a3986a986ad6bcaf3e572f8dc341408/tasarim/us-05-kitap-arama-ekran-taslaklari.md), [birleşen senaryolar](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/dd6b86035a3986a986ad6bcaf3e572f8dc341408/test/us-05-kontrol-senaryolari.md), [dalda bekleyen ek senaryo](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/c50176fe713619d3a7176f37708b2db7b2239473/test/us-05-kontrol-senaryolari.md).
+Kontrolümü gereksinimler, metin tabanlı ekran taslakları, senaryo tabloları ve işlem geçmişi üzerinden yaptım. Çalışan bir uygulamada test yürütmedim; senaryolardaki “Geçti” kayıtları dosya sahiplerinin belge kontrolü sonuçlarıdır. Kayıt aktivasyonu, üç hatalı girişte kilit, profil bildirimi ve kitap arama çıktılarının eklenmesini doğruladım.
 
-## 3. İnceleme ve demo notları
+Abdülkadir'in PR #8'deki önceki incelemesinde istediği gerçek başlangıç ve US-05 Epic güncellemeleri rapora işlendi. [Review PR #17](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/17) Eray'ın 28 Ekim onayıyla birleşti. Son kitap arama teslimi PR #23 de Eray'ın onayıyla birleşti. [Retro PR #22](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/22), Kübra ve Enes'in yazılı görüşlerini ve Sprint 2 takip planlarını içeriyor. Ayrı bir toplantı katılım kaydı eklemedim.
 
-Kontrolümü gereksinimler, metin tabanlı ekran taslakları, senaryo tabloları ve PR geçmişi üzerinden yaptım. Çalışan bir uygulamada test yürütmedim. Kayıt ve aktivasyon, hatalı giriş, profil bildirimi ve yetkilendirme akışlarının belgelerini karşılaştırdım. Kitap arama ekranında yazar/başlık/ISBN alanı, kategori filtresi ve sonuç sütunları bulunuyor. Test dosyalarında yazan “Geçti” sonuçları dosya sahiplerinin belge kontrolü kayıtlarıdır.
+## 3. Kapanış kontrolü ve takip
 
-PR #13 ve #16 Esat’ın, PR #15 Eray’ın onayıyla birleşmiş. Planning PR #6 da 27 Ekim’de birleşti. Trello’da dört iş Tamamlandı, kitap arama Geliştirmede; Jira ile durumlar eşleşiyor. Review toplantısına ilişkin katılımcı veya yeni ekip geri bildirimi kaydı henüz yok.
+Burndown'da US-05'in yeniden açılıp 28 Ekim saat 22.58'de tekrar tamamlandığı görülüyor. Kapanışta kalan puan sıfır. Grafiği bu işlem geçmişiyle birlikte kaydettim.
 
-## 4. Geri bildirimler ve takip
+US-02 kriter atfı düzeltildi. US-05'in son senaryosu ortak depoya girdi; ancak test tablosundaki kriter etiketleri için küçük bir belge düzeltmesi gerekiyor: yazar/ISBN araması kriter 1, sonuç alanları kriter 3, sonuç bulunamaması kriter 4 ile eşleştirilmeli. Esat'ın bu atıfları düzeltmesini takip edeceğim; bu madde Jira'daki kapanış sonucunu değiştirmiyor.
 
-| Kaynak | Geri bildirim ve sonuç |
-|---|---|
-| Abdülkadir, PR #8, 25 Ekim | İş tablosunu ve puanları uyumlu buldu; gerçek başlangıç ve US-05 Epic bilgisinin güncellenmesini istedi. Başlangıcı 23 Ekim olarak işledim; US-05 Kaynak ve Kitap Envanteri altında. |
-| Mert, 28 Ekim kontrolü | Aktivasyon ve bildirim eksikleri giderilmiş. US-02’de şifre sıfırlama senaryosunun kriter atfı, US-05’te kriter eşleştirmesi ve son senaryonun ortak depoya alınması açık. |
+Sprint 2'de kendi US-08–10 ekran, işlem akışı ve belge kontrolü çalışmalarımı hazırlayıp bağımsız incelemeye sunacağım.
 
-## 5. Kalan işler
+## 4. Kapanış kanıtları
 
-- **Eray:** US-02 kriterlerini sıralayıp KS-02-03 şifre sıfırlama atfını doğru kritere bağlayacak.
-- **Esat:** US-05’te yazar/ISBN aramasını kriter 1’e, sonuç alanlarını kriter 3’e, sonuç bulunamamasını kriter 4’e bağlayacak. Dalındaki son senaryoyu yeni PR ile incelemeye sunacak; inceleme ve düzeltmelerden sonra Jira durumunu güncelleyecek.
-- **Mert:** Bu Review güncellemesini bağımsız incelemeye sunacağım. PO’nun kabul görüşünü ve gerçek ekip geri bildirimlerini geldiğinde ekleyeceğim. Abdülkadir’in önceki incelemesi yukarıda korunuyor; bugünkü kontrolü ben yaptım.
-- **Sprint kapanışı:** Esat kapattığında gerçek bitişi, son puanı ve Jira Sprint Report/Burndown bağlantılarını ekleyeceğim. US-05 yetişmezse PO/SM’nin sonraki sprint planına aldığı karar rapora işlenecek; bugün tamamlanan puana eklenmeyecek.
+Görselleri 29 Ekim 2026'da kaydettim. Contributors görüntüsü develop dalının son üç aylık, merge commit'lerini hariç tutan görünümüdür; yalnızca Sprint 1'in kişi başı commit sayımı olarak değerlendirmedim.
 
-## 6. Kapanış ekleri
+### Ek 1 Sprint Raporu
 
-Sprint Report ve Burndown görselleri sprint kapandıktan sonra eklenecek. Ortak rapordaki GitHub Contributors eki de aynı aşamada hazırlanacak. Bu kontrolde nihai grafik veya toplantı katılımı kaydı oluşturmadım.
+![Jira Sprint 1 tamamlanan beş iş ve 15 SP](jira-sprint-1-raporu.png)
 
-[Jira panosu](https://dagdelen41.atlassian.net/jira/software/c/projects/KKY/boards/2) · [Jira raporları](https://dagdelen41.atlassian.net/jira/software/c/projects/KKY/boards/2/reports) · [Ortak Sprint 1 raporu](https://docs.google.com/document/d/1IX7KqhIBBCtKO-QIxZ8Pj1QFw0yYov0M2tPioCW0bQs/edit)
+[Canlı Sprint Raporu](https://dagdelen41.atlassian.net/jira/software/c/projects/KKY/boards/2/reports/sprint-retrospective)
+
+### Ek 2 Burndown
+
+Grafiğin üst bölümü ve sıfıra inen sonuç bölümü aynı görünümden kaydedildi.
+
+![Burndown üst bölüm](jira-sprint-1-burndown.png)
+
+![Burndown sonuç bölümü](jira-sprint-1-burndown-sonuc.png)
+
+[Canlı Burndown](https://dagdelen41.atlassian.net/jira/software/c/projects/KKY/boards/2/reports/burndown-chart)
+
+### Ek 3 GitHub katkıları
+
+![GitHub Contributors 29 Ekim görünümü](github-katkilar.png)
+
+[Canlı Contributors](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/graphs/contributors) · [Ortak rapor](https://docs.google.com/document/d/1IX7KqhIBBCtKO-QIxZ8Pj1QFw0yYov0M2tPioCW0bQs/edit)
