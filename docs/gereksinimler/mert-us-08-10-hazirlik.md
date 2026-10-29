@@ -4,7 +4,7 @@
 **İlk hazırlık:** 21 Ekim 2026 | **Güncelleme:** 29 Ekim 2026  
 **Sprint:** 2 | **Epic:** Kaynak ve Kitap Envanteri
 
-Üç işimin Jira kabul kriterlerini ekran, işlem akışı ve kontrol belgeleriyle eşleştirdim. Çalışmalar belge ve ekran taslağı kapsamındadır; çalışan uygulama testi kaydetmedim. Yeni çıktıları bağımsız incelemeye sunuyorum. İnceleme tamamlanmadan işleri Done olarak değerlendirmiyorum.
+Üç işimin Jira kabul kriterlerini ekran, işlem akışı ve kontrol belgeleriyle eşleştirdim. Çalışmalar belge ve ekran taslağı kapsamındadır; çalışan uygulama testi kaydetmedim. Kübra’nın bağımsız incelemesinden sonra PR #25, Eray tarafından 29 Ekim’de develop dalına birleştirildi. Üç işimi tamamlanma koşullarına göre Tamam durumuna aldım.
 
 | İş | Jira | SP | Tasarım | Kontrol |
 |---|---|---:|---|---|
@@ -42,4 +42,4 @@ Görevli olarak yıpranmış bir kitap kopyasını bakımda işaretlemek istiyor
 
 ## İnceleme ve durum
 
-29 Ekim'de her kriteri tasarım ve kontrol dosyalarına bağladım. Tablolardaki sonuçlar belge tutarlılığı kontrolüdür. Yeni teslimin bağımsız incelemesini bekliyorum; gelen düzeltmeleri aynı dalda yapacağım. Sprint 2'yi başlatma ve kapanış kararlarını Esat/Eray yönetecek.
+29 Ekim'de her kriteri tasarım ve kontrol dosyalarına bağladım. Tablolardaki sonuçlar belge tutarlılığı kontrolüdür. [PR #25](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25), Kübra'nın 29 Ekim 12.18 tarihli [inceleme onayını](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25#pullrequestreview-5695366811) aldı; Eray 12.32'de develop dalına birleştirdi. KKY-9, KKY-19 ve KKY-20'nin Jira/Trello kapanışlarını ve kanıt bağlantılarını güncelledim. Sprint 2'nin ortak başlangıç ve kapanış kaydını Esat/Eray yönetecek.
