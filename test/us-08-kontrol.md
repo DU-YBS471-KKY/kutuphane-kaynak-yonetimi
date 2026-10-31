@@ -3,7 +3,7 @@
 Hazırlayan ve belge kontrolü: Mert Seçkin | 29 Ekim 2026  
 Jira: [KKY-9](https://dagdelen41.atlassian.net/browse/KKY-9) | Sprint 2
 
-Gereksinim, ekran ve işlem akışını karşılaştırdım. Aşağıdaki “Uyumlu” sonuçları tasarımın ilgili beklenen sonucu açıkça tanımladığını gösterir. Bir uygulamada form çalıştırmadım veya veritabanı kaydı oluşturmadım. Bağımsız inceleme bekleniyor.
+Gereksinim, ekran ve işlem akışını karşılaştırdım. Aşağıdaki “Uyumlu” sonuçları tasarımın ilgili beklenen sonucu açıkça tanımladığını gösterir. Bir uygulamada form çalıştırmadım veya veritabanı kaydı oluşturmadım. Bağımsız incelemem 29 Ekim 2026'da Kübra Şen tarafından [PR #25'te onaylandı](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25#pullrequestreview-5695366811); PR aynı gün develop dalına birleştirildi.
 
 Örnek veriler gerçeğe ait katalog kayıtları değildir: Başlık “Örnek Kitap A”, yazar “Örnek Yazar”, kategori “Roman”, ISBN 9781234567897. Tekillik senaryosunda bu ISBN'nin mevcut olduğu varsayılır.
 
@@ -16,4 +16,4 @@ Gereksinim, ekran ve işlem akışını karşılaştırdım. Aşağıdaki “Uyu
 | KS-08-05 | 4 | Dört zorunlu alan geçerli, kapak boş olacak şekilde değerlendirilir. | Kapak eksikliği kayıt engeli oluşturmaz. | F01 isteğe bağlı etiketi ve F02 geçerli kayıt yolu açık. | Uyumlu |
 | KS-08-06 | 5 | Geçerli yeni kitap kaydedilir; aynı ISBN katalogda aranır. | Yeni kitap başlık, yazar, ISBN ve kategoriyle bulunur. | F03 başarı ekranı ve aynı ISBN'li katalog satırı var. | Uyumlu |
 
-Kontrolü [tasarım dosyasındaki](../tasarim/us-08-kitap-ekleme.md) F01–F03 bölümlerine göre yaptım. İnceleyen kişi ve varsa düzeltme kararı PR geçmişinde kaydedilecek.
+Kontrolü [tasarım dosyasındaki](../tasarim/us-08-kitap-ekleme.md) F01–F03 bölümlerine göre yaptım. İnceleyen kişi ve onay sonucu PR #25 geçmişinde kayıtlıdır.
