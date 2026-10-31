@@ -41,4 +41,4 @@ Review hazırlığını ve kendi günlük kaydımı sürdürmemi engelleyen bir 
 
 4 Kasım için planlanan kapanışta Jira Sprint Report ve Burndown görüntülerini; GitHub Contributors görünümünü ilgili dal ve tarih kapsamıyla kaydedeceğim. Her görüntünün kontrol tarihini yazacağım. Nihai sonuç, PO görüşü, varsa devreden işler ve gerçekleştiğinde v0.2 sürüm bağlantısı eklenecek.
 
-[Ortak Sprint 2 raporu](https://docs.google.com/document/d/1dovKZWNX8STAj2aNgCt0hlEapiJboS2mtfXGcQEtI4o/edit) · [Kriter kontrol listesi](kabul-kriteri-kontrolu.md) · [Teslim PR #25](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25)
+[Kriter kontrol listesi](kabul-kriteri-kontrolu.md) · [Teslim PR #25](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25)
