@@ -3,7 +3,7 @@
 Hazırlayan ve belge kontrolü: Mert Seçkin | 29 Ekim 2026  
 Jira: [KKY-19](https://dagdelen41.atlassian.net/browse/KKY-19) | Sprint 2
 
-Kopya durumunu, yetkiyi ve müsait sayısını tasarım üzerinde değerlendirdim. “Uyumlu” sonucu belge eşleşmesini belirtir; çalışan ödünç sistemi üzerinde test yapılmadı. Bağımsız inceleme bekleniyor.
+Kopya durumunu, yetkiyi ve müsait sayısını tasarım üzerinde değerlendirdim. “Uyumlu” sonucu belge eşleşmesini belirtir; çalışan ödünç sistemi üzerinde test yapılmadı. Bağımsız incelemem 29 Ekim 2026'da Kübra Şen tarafından [PR #25'te onaylandı](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25#pullrequestreview-5695366811); PR aynı gün develop dalına birleştirildi.
 
 Başlangıç örneği: Aynı kitabın K-001 ve K-002 kopyaları Müsait, toplam müsait sayı 2. Örnek kullanıcılar Öğrenci, Görevli ve Admin rollerindedir.
 
@@ -15,4 +15,4 @@ Başlangıç örneği: Aynı kitabın K-001 ve K-002 kopyaları Müsait, toplam 
 | KS-09-04 | 2 | K-001 bakımdayken K-002 incelenir. | Sağlam kopya Müsait kalır ve seçilebilir. | B02'de K-002'nin durumu ve ödünç düğmesi korunuyor. | Uyumlu |
 | KS-09-05 | 3 | Görevli/Admin K-001'i yeniden Müsait yapar. | Kopya Müsait; sayı yeniden 2. | B03 durum değişimini ve yeniden hesaplamayı açıklıyor. | Uyumlu |
 
-Kanıt: [B01–B03 ekran ve akışları](../tasarim/us-09-bakim-durumu.md). Bağımsız inceleme ve düzeltmeler PR üzerinden izlenecek.
+Kanıt: [B01–B03 ekran ve akışları](../tasarim/us-09-bakim-durumu.md). Bağımsız inceleme sonucu PR #25 geçmişinde kayıtlıdır; sonraki düzeltmeler aynı teslim bağlantısıyla izlenebilir.
