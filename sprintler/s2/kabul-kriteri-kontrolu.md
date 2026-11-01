@@ -79,3 +79,16 @@ Jira'yı kontrol ettiğim anda Sprint 2'de “Sprint'i başlat” düğmesi vard
 [J8]: https://dagdelen41.atlassian.net/browse/KKY-9
 [J9]: https://dagdelen41.atlassian.net/browse/KKY-19
 [J10]: https://dagdelen41.atlassian.net/browse/KKY-20
+
+
+## 31 Ekim 2026 ara kontrolüm
+
+[PR #26](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/26) için Eray'ın onayını ve develop'a birleşme kaydını doğruladım (f713532). İlk kontrol listem ve 29 Ekim günlüğüm artık birleşmiş durumda.
+
+Jira'da Sprint 2'nin etkin olduğunu gördüm. Planlanan aralık 28 Ekim–4 Kasım; beş Story ve 18 SP. US-08–10 Tamam (10 SP), US-06–07 Yapılacaklar (8 SP). Bu ara durum, yukarıdaki 29 Ekim pano gözlemimden sonraki kaydımdır.
+
+US-06–07 için yeni ekran/akış ve kriter bazlı sonuç teslimi göremedim. KKY-7'deki F-01 stok güncellemesi ve KKY-8'deki F-02 oturumsuz PDF erişimi notlarıma yeni yanıt bulunmuyor. Bu nedenle 17 kriter için son belge kontrolümün dağılımını **11 Uyumlu, 2 Fark var, 4 Kanıt bekleniyor** olarak korudum. US-06–07'nin altı kriterini henüz tamamlanmış teslim olarak değerlendirmiyorum.
+
+Mert'in [PR #28](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/28) açıklamasında üç kontrol tablosunun korunduğunu ve eski inceleme bekleyişi notlarının güncellendiğini gördüm. Yeni bir yazılım testi veya US-06–07 teslim incelemesi yapmadım.
+
+Yeni belge/PR geldiğinde F-01/F-02 ile dört bekleyen kriterin kanıtını yeniden karşılaştıracağım. Son değerlendirmemi **4 Kasım** için planladım. O tarihte açık kalan koşulları ve bekleme gerekçelerini de yazacağım.
