@@ -3,7 +3,7 @@
 Hazırlayan ve belge kontrolü: Mert Seçkin | 29 Ekim 2026  
 Jira: [KKY-20](https://dagdelen41.atlassian.net/browse/KKY-20) | Sprint 2
 
-Öğrenci gönderimi ile görevli/admin yayın kararını tasarım üzerinde karşılaştırdım. Sonuçlar belge tutarlılığı kontrolüdür; uygulamada oturum açıp yorum yayımlamadım. Bağımsız inceleme bekleniyor.
+Öğrenci gönderimi ile görevli/admin yayın kararını tasarım üzerinde karşılaştırdım. Sonuçlar belge tutarlılığı kontrolüdür; uygulamada oturum açıp yorum yayımlamadım. Bağımsız incelemem 29 Ekim 2026'da Kübra Şen tarafından [PR #25'te onaylandı](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25#pullrequestreview-5695366811); PR aynı gün develop dalına birleştirildi.
 
 Örnekler: Oturumu açık Öğrenci A, başka bir okuyucu Öğrenci B ve görevli/admin. “Örnek Kitap A” ve “Örnek yorum” yalnızca senaryo verisidir.
 
