@@ -92,3 +92,35 @@ US-06–07 için yeni ekran/akış ve kriter bazlı sonuç teslimi göremedim. K
 Mert'in [PR #28](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/28) açıklamasında üç kontrol tablosunun korunduğunu ve eski inceleme bekleyişi notlarının güncellendiğini gördüm. Yeni bir yazılım testi veya US-06–07 teslim incelemesi yapmadım.
 
 Yeni belge/PR geldiğinde F-01/F-02 ile dört bekleyen kriterin kanıtını yeniden karşılaştıracağım. Son değerlendirmemi **4 Kasım** için planladım. O tarihte açık kalan koşulları ve bekleme gerekçelerini de yazacağım.
+
+## 2 Kasım 2026 yeniden kontrolüm
+
+Esat'ın [PR #30][E-PR] teslimini birleşme sürümünde (98ddf58) inceledim: [US-06–07 ekran taslakları][E-T2] ve [altı kontrol senaryosu][E-K2]. KKY-7 ve KKY-8'deki kriter metinlerini bugün Jira'da yeniden okudum; değişmemiş. Çalışan uygulama testi yapmadım; aşağıdaki sonuçlar belge karşılaştırmamı gösterir.
+
+| İzleme kimliğim | Eşleştirdiğim kayıt | 31 Ekim | 2 Kasım sonucum |
+| --- | --- | --- | --- |
+| S2-06-AK1 | Ekrandaki konum kartında Salon (B Blok Okuma Salonu) ve Raf (B-14); KS-06-01 | Kanıt bekleniyor | Uyumlu |
+| S2-06-AK2 | KS-06-02 iki kitapta Müsait / Ödünçte etiketlerini kontrol ediyor. Ekran taslağı yalnız Müsait hâlini çiziyor. | Kanıt bekleniyor | Uyumlu |
+| S2-06-AK3 | Ekranda stok (3/5) gösteriliyor. KS-06-03 ödünç sonrası stoğun 1 azalmasını kapsıyor; iade sonrası artış için senaryo yok. | Fark var | **Fark var – F-01 açık** |
+| S2-07-AK1 | Ekranda Durum 1: giriş yapmış üye için indirme düğmesi; KS-07-01 | Kanıt bekleniyor | Uyumlu |
+| S2-07-AK2 | Ekranda Durum 2: kilitli “İndirmek için lütfen üye girişi yapın” uyarısı; KS-07-02 indirmenin engellenmesini ve Giriş Yap sayfasına yönlendirmeyi bekliyor. | Fark var | **Uyumlu – F-02 kapandı** |
+| S2-07-AK3 | KS-07-03 basılı kitapta PDF düğmesinin görünmemesini kontrol ediyor; US-06 basılı kitap ekranında yalnız Favorilere Ekle / Rezerve Et var. | Kanıt bekleniyor | Uyumlu |
+
+Yeni dağılımım: **17 kriterde 16 Uyumlu, 1 Fark var, 0 Kanıt bekleniyor.** Yeni ekran dosyasında US-07 kriter sırası Jira ile aynı; önceki 1→2, 2→3, 3→1 eşleştirmesine gerek kalmadı. “Depoda/Kayıp” ifadesi yeni ekran ve senaryolarda yer almıyor; bu yüzden ayrıca soru açmadım.
+
+Ayrı izlediğim nokta: Altı senaryonun Durum sütunu “Bekliyor”. Belge kapsamının uyumlu olması bu senaryoların sonuçlandığını göstermiyor. Sonuçları Esat dolduracak; ben onun adına sonuç yazmadım. Sütun 4 Kasım'da hâlâ boşsa son kontrolümde bunu ayrıca raporlayacağım.
+
+Diğer gözlemim: Bu ekran taslağı `tasarım/` klasöründe; diğer ekran taslakları `tasarim/` klasöründe ve PR açıklaması da `tasarim/` diyor. Klasör tutarlılığı düzeltmesini Esat'a bırakıyorum.
+
+1 Kasım'da PR #30'u GitHub'da onayladım. Kriter bazlı ayrıntılı karşılaştırmamı bugün tamamladım ve F-01'in açık kaldığını bu bölüme yazdım.
+
+| Notum | İlgili iş | 2 Kasım durumu | Beklediğim kayıt | Sonraki kontrolüm |
+| --- | --- | --- | --- | --- |
+| F-01 | US-06 / KKY-7, Esat | Açık | İade öncesi ve sonrası stok değerini karşılaştıran senaryo (ön koşul, işlem, beklenen değer) | 4 Kasım |
+| F-02 | US-07 / KKY-8, Esat | Kapandı | — (KS-07-02 ve ekran Durum 2 koşulu karşılıyor) | — |
+
+4 Kasım'da 17 satırın son durumunu, açık not sayısını ve senaryo sonuçlarının durumunu kaydedeceğim.
+
+[E-PR]: https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/30
+[E-T2]: https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/98ddf585ee085afd20de829fcb16491743832d05/tasar%C4%B1m/esat-us-06-07-ekran-taslaklari.md
+[E-K2]: https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/98ddf585ee085afd20de829fcb16491743832d05/test/us-06-07-kontrol-senaryolari.md
