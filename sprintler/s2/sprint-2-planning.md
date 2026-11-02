@@ -4,7 +4,7 @@
 **Sprint:** Sprint 2  
 **Scrum Master:** Esat Kor  
 **Hazırlayan (Product Owner):** Eray Yakup Dağdelen  
-**Planlama Kaydı Tarihi:** 28 Ekim 2026 (Güncelleme ve Kayıt: 2 Kasım 2026)[cite: 14]  
+**Planlama Kaydı Tarihi:** 28 Ekim 2026 (Güncelleme ve Kayıt: 2 Kasım 2026)  
 
 ---
 
@@ -30,11 +30,11 @@ Kitap konumu ve stok, dijital kaynak erişimi, kitap ekleme, bakım ve puan/yoru
 
 | Üye | Ayrılabilecek Süre (Saat) | Not |
 | :--- | :--- | :--- |
-| **Eray** | 3 (tahmin) | Planning, PR incelemeleri ve PO kabul görüşü[cite: 14] |
+| **Eray** | 3 (tahmin) | Planning, PR incelemeleri ve PO kabul görüşü|
 | **Esat** | 6 (tahmin) | US-06–07, sprint ve Daily takibi |
 | **Mert** | 3 (tahmin) | US-08–10, Jira raporları ve Review |
 | **Abdülkadir** | 2 (tahmin) | Bug/Issue takibi ve Mert ile Review |
-| **Kübra** | 4 (tahmin) | Kriter kontrolü ve Enes ile retrospektif; PR incelemeleri[cite: 14] |
+| **Kübra** | 4 (tahmin) | Kriter kontrolü ve Enes ile retrospektif; PR incelemeleri|
 | **Enes** | 2 (tahmin) | Risk kaydı, Trello ve Kübra ile retrospektif |
 
 *Her üye sprint için toplam kapasite tahminini yazar. Bu alan gerçekleşen çalışma saati değildir. Jira’daki başlangıç alanı ile fiilen başlatma işlem zamanı Esat tarafından karşılaştırılacaktır.*
