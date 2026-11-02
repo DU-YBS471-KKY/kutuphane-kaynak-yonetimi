@@ -124,3 +124,26 @@ Diğer gözlemim: Bu ekran taslağı `tasarım/` klasöründe; diğer ekran tasl
 [E-PR]: https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/30
 [E-T2]: https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/98ddf585ee085afd20de829fcb16491743832d05/tasar%C4%B1m/esat-us-06-07-ekran-taslaklari.md
 [E-K2]: https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/98ddf585ee085afd20de829fcb16491743832d05/test/us-06-07-kontrol-senaryolari.md
+
+## 2 Kasım 2026 akşam son kontrolüm
+
+Esat'ın [PR #36](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/36) düzeltmesini inceleyip onayladım; PR develop'a birleşti (f534b64). Açık iki noktam da kapandı.
+
+| İzleme kimliğim | Eşleştirdiğim yeni kayıt | 2 Kasım öğleden sonra | 2 Kasım akşam |
+| --- | --- | --- | --- |
+| S2-06-AK3 / KKY-7 | [KS-06-04](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/f534b64/test/us-06-07-kontrol-senaryolari.md) iade sonrası stoğun 1 artmasını ön koşul, işlem ve beklenen değerle kontrol ediyor. | Fark var – F-01 açık | **Uyumlu – F-01 kapandı** |
+
+**Son dağılımım: 17 kriterde 17 Uyumlu, 0 Fark var, 0 Kanıt bekleniyor.** Açık kalan bulgum yok.
+
+Ekran taslağının klasör adı da düzeldi: dosya artık [`tasarim/esat-us-06-07-ekran-taslaklari.md`](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/blob/f534b64/tasarim/esat-us-06-07-ekran-taslaklari.md) yolunda ve diğer ekran taslaklarıyla aynı klasörde; içeriği değişmedi.
+
+Senaryo sonuçları hakkında ayrı notum: Esat aynı PR'da yedi senaryonun Durum sütununu "Bekliyor"dan "Geçti"ye çevirdi. Bu sonuçlar Esat'ın kendi kaydıdır. Benim kontrolüm gereksinim, ekran taslağı ve senaryo kapsamının karşılaştırmasıdır; çalışan uygulama üzerinde test yürütmedim ve bu sonuçları kendi kontrolümün kanıtı saymıyorum. [US-01–04 kontrol dosyasındaki](../../test/us-01-04-kontrol-senaryolari.md) gibi dosyanın başına sonucun neye dayandığını yazan bir satır eklenmesini öneriyorum.
+
+PO kabulü: Eray 2 Kasım akşamı KKY-7'ye Product Owner onayını yazdı. Bu değerlendirme kendisine aittir; benim kriter kontrolüm ona dayanak oldu.
+
+| Notum | İlgili iş | 2 Kasım akşam durumu | Kapanış dayanağım |
+| --- | --- | --- | --- |
+| F-01 | US-06 / KKY-7, Esat | **Kapandı** | KS-06-04 iade senaryosu (PR #36, f534b64) |
+| F-02 | US-07 / KKY-8, Esat | Kapandı | KS-07-02 ve ekran Durum 2 koşulu (PR #30, 98ddf58) |
+
+4 Kasım'da sprint kapanışıyla birlikte 17 satırın son durumunu bir kez daha doğrulayacağım.
