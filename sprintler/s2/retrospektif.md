@@ -37,3 +37,16 @@ Bu kaydı sprint sürerken kendi gözlemlerimle hazırladım. Aşağıdaki madde
 - [29 Ekim günlüğüm](kubra-29-ekim.md)
 - [PR #25 incelemem](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/25#pullrequestreview-5695366811)
 - [PR #26 onay ve birleşme kaydı](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/26)
+- [PR #33: 2 Kasım yeniden kontrolüm](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/33)
+- [PR #36: Esat'ın F-01 ve klasör düzeltmesi](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/36)
+
+## 2 Kasım akşamı: önerilerimin sprint sonucuyla durumu
+
+Bu bölümü 2 Kasım akşamı, açık bulgularım kapandıktan sonra ekledim. Sprint henüz kapatılmadı; nihai değerlendirmemi kapanıştan sonra tamamlayacağım.
+
+- **Keep 1 (kriter–senaryo–kanıt eşleştirmesi) işe yaradı.** 17 kriterlik listem iki kapsam açığını (F-01 stok, F-02 oturumsuz PDF erişimi) görünür kıldı. İkisi de teslim sahibi tarafından düzeltildi: F-02 PR #30'da, F-01 PR #36'daki KS-06-04 senaryosuyla. Son dağılımım 17 kriterde 17 Uyumlu.
+- **Improve 2 (ön koşul / işlem / beklenen sonucu açık izlemek) karşılığını buldu.** Açtığım iki not, Mert'in [#34](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/issues/34) ve [#35](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/issues/35) numaralı Issue kayıtlarına dönüştü ve ikisi de kapandı. Bulgunun Issue olarak kaydedilmesi takibi kolaylaştırdı; bunu Sprint 3'te de sürdürmeyi öneriyorum.
+- **Improve 1 (günlüğümü aynı gün yazmak) bu sprintte düzeldi.** 1 ve 2 Kasım kayıtlarımı aynı gün girdim; 1 Kasım satırında giriş tarihini belirttim.
+- **Yeni gözlemim:** Kontrol senaryolarının sonuç sütunundaki "Geçti" ifadesi ekibin bazı dosyalarında belge/ekran taslağı üzerinden doğrulamayı anlatıyor, bazılarında ise dayanağı yazılmamış. Sprint 3'te her kontrol dosyasının başına sonucun neye dayandığını yazan bir satır eklenmesini öneriyorum. Bu bir öneridir; ekipçe alınmış karar değildir.
+
+Enes'in katkısı: 2 Kasım akşamına kadar Enes'in Sprint 2 için bir retrospektif katkısını görmedim. Keep / Improve / Try görüşünü paylaştığında kendi adıyla ekleyeceğim; ortak bölümü onun katkısı geldiğinde kesinleştireceğim.
