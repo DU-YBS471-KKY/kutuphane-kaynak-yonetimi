@@ -1,14 +1,14 @@
 # Sprint 2 Review hazırlığım
 
 Hazırlayan: Mert Seçkin  
-Kontroller: 31 Ekim, 2 Kasım öğle ve 2 Kasım akşam (kapanış öncesi)  
+Kontroller: 31 Ekim, 2 Kasım öğle, 2 Kasım akşam ve 3 Kasım (kapanış öncesi)  
 Planlanan sprint: 28 Ekim–4 Kasım 2026
 
 ## Sprint hedefinin kapanış öncesi değerlendirmesi
 
 Kitap konumu ve stok, dijital kaynak erişimi, kitap ekleme, bakım ve puan/yorum işlerinin kabul kriterlerine uygun belgelerle tamamlanmasını takip ediyorum. 2 Kasım akşam kontrolümde Jira'da Sprint 2 hâlâ aktif (bitiş alanı 4 Kasım 00.00) ve 5 Story / 18 SP kapsamının tamamı Tamam durumunda. US-08–10 işlerim (10 SP) 29 Ekim'de, Esat'ın US-06–07 işleri (8 SP) 1–2 Kasım'da tamamlandı.
 
-Kübra'nın 2 Kasım kontrolünde açık kalan F-01 (iade sonrası stok), Esat'ın eklediği KS-06-04 senaryosuyla ([PR #36](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/36)) giderildi; Kübra PR #36'yı onayladı. Eray 2 Kasım akşamı beş Story ve KKY-25 için Jira'da PO onayı yazdı, Sprint 2'yi PO olarak kabul ettiğini Slack'te paylaştı. Kapanış öncesi kayıtlara göre sprint hedefi karşılanmış görünüyor; gerçekleşen bitiş, Sprint Report ve Burndown kapanışta eklenecek.
+Kübra'nın 2 Kasım kontrolünde açık kalan F-01 (iade sonrası stok), Esat'ın eklediği KS-06-04 senaryosuyla ([PR #36](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/36)) giderildi; Kübra PR #36'yı onayladı ve son kontrolünde ([PR #39](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/39)) 17 kriterin 17'sini Uyumlu olarak kaydetti. Eray 2 Kasım akşamı beş Story ve KKY-25 için Jira'da PO onayı yazdı, Sprint 2'yi PO olarak kabul ettiğini Slack'te paylaştı. Kapanış öncesi kayıtlara göre sprint hedefi karşılanmış görünüyor; gerçekleşen bitiş, Sprint Report ve Burndown kapanışta eklenecek.
 
 ## 2 Kasım akşam iş tablosu
 
@@ -38,8 +38,8 @@ Yedi US-06–07 senaryosu ile kendi 18 senaryomdaki sonuçlar çalışan uygulam
 
 | İş | Gözlediğim açık nokta | Sonraki adım |
 |---|---|---|
-| Kriter listesi | Kübra'nın 2 Kasım bölümü F-01'i hâlâ açık gösteriyor; PR #36 sonrası son durum listeye yazılmadı. | Kübra'nın 4 Kasım son kontrolü. |
-| Retrospektif | 31 Ekim ara değerlendirmesi duruyor; son hali bekleniyor. | Kübra ve Enes. |
+| Kriter listesi | Kübra'nın 2 Kasım akşam son kontrolü (PR #39, 3 Kasım'da birleşti): 17 kriterde 17 Uyumlu, F-01 kapandı, açık bulgu yok. | Kübra kapanışta son doğrulamasını yapacak. |
+| Retrospektif | Kübra GitHub'daki [Retro dosyasını](retrospektif.md) 2 Kasım akşam durumuyla güncelledi (PR #39); ortak rapordaki Retro bölümü ve Enes'in katkısı bekleniyor. | Kübra ve Enes. |
 | Sprint kapanışı | Jira'da Sprint 2 aktif. | Esat kapatır; Sprint Report, Burndown ve Contributors görüntülerini ekleyeceğim. |
 | v0.2 sürümü | PO kabulünde hedef sürüm v0.2 geçiyor; GitHub'da sürüm oluşturulmadı. | Oluşturulursa bağlantısını ekleyeceğim. |
 
