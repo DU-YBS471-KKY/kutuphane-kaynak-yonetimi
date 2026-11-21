@@ -45,3 +45,25 @@ Bunlar Jira kriter farkı değil. Eray'ın PR #40'taki kararlarının dosyalara 
 - N-02: US-13 U01 ile US-15 L01 aynı liste. Kadir'in U01'inde Durum sütunu yok, US-15 kriter 2 ise durumu istiyor. İki taslağın sütunlarını birlikte eşitlemeyi öneriyorum.
 
 Kontrol senaryolarının sonuç sütunları Kadir'in dosyalarında "Bekliyor" olarak duruyor. Onlara dokunmadım.
+
+## 21 Kasım 2026: PR #40 nihai kontrolüm
+
+Kontrol ettiğim sürüm: Kadir'in 21 Kasım'daki iki commit'i ("US-11 12 13 taslaklarına PO kararları ve Durum sütunu işlendi" ve "US-11 12 13 senaryolarına PO kararları eklendi"). Jira kriterleri değişmemiş; 9 kriterin 9'u yine Uyumlu.
+
+### Beklediğim güncellemeler
+
+| No | Beklediğim | Gördüğüm | Sonucum |
+|---|---|---|---|
+| B-01 | US-11 pasif veya cezalı hesapta ödünç engeli | O01'de hesap ve gecikmiş kitap alanları, O02'de iki uyarı satırı, KS-11-06 ve KS-11-07 | Karşılandı |
+| B-02 | US-11 aynı anda en fazla 3 kitap | O01 ve O03'te aktif ödünç sayısı, O02'de 3 / 3 uyarısı, KS-11-08 ve KS-11-09 | Karşılandı |
+| B-03 | US-12 aktif kaydı olmayan kopyada uyarı | I04 ekranı ve KS-12-05; stok değişmiyor | Karşılandı |
+| B-04 | US-13 iade gününde uzatma | U03 açıklaması, işlem sırası ve KS-13-06 (03.12.2026 → 10.12.2026, hesap doğru) | Karşılandı |
+| B-05 | US-13 görevlinin öğrenci adına uzatması | U04 ekranı, KS-13-07 ve rezervasyonlu durumda KS-13-08 | Karşılandı |
+| N-02 | US-13 U01 ile US-15 L01 sütunları | U01'e Durum sütunu eklenmiş; sütunlar L01 ile aynı | Karşılandı |
+
+### Onaydan önce kalan iki nokta
+
+- N-01, rezervasyonlu kopya: Eray kararı 21 Kasım'da, Kadir'in commit'lerinden sonra verdi. Bu yüzden henüz dosyalarda yok. Beklediğim: US-12'de sağlam iade edilen kopyanın aktif rezervasyon sırası varsa Müsait değil Rezerve olması ve genel ödünç alıma açılmaması; US-11'de Rezerve kopyanın yalnızca ayrıldığı öğrenciye verilmesi ve bunun için senaryolar. US-11'deki "Açık kalan nokta" da karar olarak güncellenmeli. Ben kendi tarafımı US-14 R06 ve KS-14-11…13'e işledim; durum adı olarak Rezerve kullanıyorum.
+- Örnek veri: Kadir'in PR #44'teki notu üzerine US-15'te 2000000001 numaralı öğrencinin Örnek Kitap B'sini 04.11.2026 ödünç, 19.11.2026 iade tarihi olarak değiştirdim. Bu öğrencinin 18.11.2026'da 1 aktif ödüncü var. US-11'de aynı öğrencinin başlangıçtaki aktif ödüncü 0 ve O03'te 1 / 3 yazıyor; bunlar 1 ve 2 / 3 olmalı. US-13 U01'deki Örnek Kitap B satırı da 04.11.2026 / 19.11.2026 olmalı.
+
+Bu iki nokta işlenince PR #40'ı onaylayacağım. Kadir'in dosyalarındaki "Sonuç" sütunlarına dokunmadım.
