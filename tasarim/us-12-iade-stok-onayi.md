@@ -1,8 +1,8 @@
 # US 12 iade ve stok onayı ekranı ve işlem akışı
 
-Sorumlu: Abdülkadir Güneş | Tarih: 18 Kasım 2026  
+Sorumlu: Abdülkadir Güneş | Tarih: 18 Kasım 2026 | Güncelleme: 21 Kasım 2026  
 Jira: [KKY-11](https://dagdelen41.atlassian.net/browse/KKY-11) | Sprint 3 | 3 SP  
-Durum: Taslak hazır. Kübra'nın bağımsız kontrolü bekleniyor.
+Durum: Eray'ın 19 Kasım PO kararı işlendi. Kübra'nın nihai kontrolü bekleniyor.
 
 Görevlinin iade gelen kopyayı okutup kontrol etmesini ve stoğa geri almasını aşağıdaki ekranlarla gösterdim. Taslaklar çalışan uygulama ekranı değildir. US-11'deki gibi işlem fiziksel kopya üzerinden yapılır. Bakımda durumu US-09 ile aynıdır.
 
@@ -54,27 +54,45 @@ Hasarlı seçilince kopya Bakımda olur ve ödünç verilebilir kopya sayısı a
 
 Her iki durumda da iade tarihi ve işlemi yapan görevli kayıtta görünür. Bu kriter 3'ü karşılar. Ödünç kaydı aktif listeden çıkar, US-15'teki geçmiş listeye geçer.
 
+## I 04 aktif ödünç kaydı olmayan kopya
+
+```text
+IADE AL                                 Oturum: Gorevli
+Kopya barkodu  [K-002     ] [Barkod oku]
+
+Bu kopya icin aktif odunc kaydi bulunmamaktadir.
+                              [Yeni islem]
+```
+
+Okutulan kopyanın aktif ödünç kaydı yoksa iade başlatılmaz. Kitap kontrolü seçenekleri ve "Iadeyi tamamla" düğmesi gösterilmez. Kopyanın durumu ve stok sayısı değişmez. Bu, Eray'ın 19 Kasım kararıdır.
+
 ## İşlem sırası
 
 ```text
-Ekrani ac -> Kopya barkodunu okut -> Aktif odunc kaydi gorunur (I01)
+Ekrani ac -> Kopya barkodunu okut
+  -> Aktif odunc kaydi var mi? Hayir: I04 uyarisi, iade baslamaz
+  -> Evet: Aktif odunc kaydi gorunur (I01)
   -> Kitabi kontrol et
   -> Saglam: Kopya MUSAIT, verilebilir sayi 1 artar (I02)
   -> Hasarli: Kopya BAKIMDA, sayi degismez (I03)
   -> Iade tarihi ve gorevli kayda yazilir -> Odunc kaydi kapanir
 ```
 
-| Kabul kriteri | Tasarım kanıtı | Kontrol kaydı |
+| Kabul kriteri veya PO kararı | Tasarım kanıtı | Kontrol kaydı |
 |---|---|---|
 | 1 Sağlam iadede Müsait ve stok 1 artar | I01 ve I02 | KS-12-01 |
 | 2 Hasarlı iadede Bakımda, stok değişmez | I01 ve I03 | KS-12-02 |
 | 3 İade tarihi ve görevli kayda geçer | I02 ve I03 | KS-12-03, KS-12-04 |
+| PO kararı, aktif kaydı olmayan kopyada uyarı | I04 ve işlem sırası | KS-12-05 |
 
-## Netleşmesi gereken noktalar
+## PO kararı
 
-Bunlar kabul kriterlerinde yok. Yeni kural eklemedim.
+Eray 19 Kasım'da PR #40'ta şu kararı verdi. I04 ekranına ve KS-12-05 senaryosuna işledim.
 
-- Okutulan kopyanın aktif ödünç kaydı yoksa ne gösterilecek. Eray'a soracağım.
+- Okutulan kopyanın aktif ödünç kaydı yoksa iade başlatılmaz ve görevliye "Bu kopya için aktif ödünç kaydı bulunmamaktadır" uyarısı gösterilir.
+
+## Bağlantılı işler
+
 - İade tarihi geçmişse gecikme cezası bu ekranda hesaplanmıyor. Ceza US-18'de, Enes'in işi. Bu ekrandaki iade tarihi onun hesabına girdi olacak.
 - Sağlam iade edilen kopyanın rezervasyonu varsa bildirim US-17'de oluşur. Kübra'nın belgesindeki bağlantıyla aynı.
 
