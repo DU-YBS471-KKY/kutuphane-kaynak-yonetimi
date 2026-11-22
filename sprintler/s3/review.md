@@ -1,44 +1,45 @@
-# Sprint 3 Review ara kaydı
+# Sprint 3 Review ara kaydım
 
-Hazırlayan: Mert Seçkin  
-Kontrol tarihi: 20 Kasım 2026  
-Sprint: 18–25 Kasım 2026
+Mert Seçkin — 22 Kasım 2026  
+Sprint 3: 18–25 Kasım 2026
 
-Sprint kapanmadı. Bugünkü kontrolde Jira'da 5 Story ve 18 SP bulunuyor; 3 Story To Do, 2 Story In Progress, 0 Story Done. Tamamlanan puan 0/18. Nihai hedef gerçekleşmesini ve PO kabulünü kapanışta kaydedeceğim.
+Sprint aktif. Jira'da beş Story'nin tamamı In Progress; tamamlanan iş 0/5, tamamlanan puan 0/18. Trello'da beş kart Test/QA'da. Tasarım ve kontrol dosyaları hazır; ortak düzeltmeler, bağımsız onay ve PO kabulü bekleniyor. Nihai hedef gerçekleşmesini kapanışta kaydedeceğim.
 
-## Teslimler ve incelemeler
+## Teslimler ve açık kontroller
 
-| İş | Sorumlu | Jira durumu | İncelediğim çıktı | Beklenen adım |
+| İş | Sorumlu | Jira | İncelediğim çıktı | Kalan adım |
 | --- | --- | --- | --- | --- |
-| US-11 ödünç verme, KKY-10, 5 SP | Kadir | To Do | PR #40 | Beş PO kararı işlenecek; Kübra nihai kontrolü yapacak. |
-| US-12 iade, KKY-11, 3 SP | Kadir | To Do | PR #40 | İade kuralı ve senaryolar güncellenecek; QA ve PO kabulü bekliyor. |
-| US-13 süre uzatma, KKY-12, 3 SP | Kadir | To Do | PR #40 | Uzatma kuralları ve ortak liste sütunları eşitlenecek. |
-| US-14 rezervasyon, KKY-21, 5 SP | Kübra | In Progress | PR #44 | Kadir'in bağımsız incelemesi ve açık PO sorularının yanıtı bekliyor. |
-| US-15 ödünç listesi, KKY-22, 2 SP | Kübra | In Progress | PR #44 | Kadir'in incelemesi ve US-13 ile Durum sütununun eşitlenmesi bekliyor. |
+| US-11 / KKY-10 / 5 SP | Kadir | In Progress | PR #40 | Rezerve kopyanın yalnızca ayrıldığı öğrenciye verilmesi; örnek aktif ödünç sayısı 1 → 2/3. |
+| US-12 / KKY-11 / 3 SP | Kadir | In Progress | PR #40 | Aktif rezervasyonu olan sağlam iadede Rezerve durumu ve ilgili senaryolar. |
+| US-13 / KKY-12 / 3 SP | Kadir | In Progress | PR #40 | Kitap B tarihlerinin US-15 ile 04.11.2026 / 19.11.2026 olarak eşitlenmesi. |
+| US-14 / KKY-21 / 5 SP | Kübra | In Progress | PR #44 | Yeni rezervasyon kuralları işlendi; Kadir yeniden inceleyecek. |
+| US-15 / KKY-22 / 2 SP | Kübra | In Progress | PR #44 | Ortak örnek veri ve geçmiş liste kuralları güncellendi; Kadir yeniden inceleyecek. |
 
-Kadir'in üç Story'sinde 14, Kübra'nın iki Story'sinde 11 kontrol senaryosu var. Kübra mevcut 9 US-11–13 kabul kriterini belge üzerinden uyumlu bulmuş. Bu ön kontrol, PR onayı veya çalışan uygulamada başarılı test sonucu anlamına gelmiyor. Eray'ın beş kararı dosyalara işlendikten sonra nihai kontrol yapılacak.
+Kadir'in dosyalarında 22, Kübra'nın dosyalarında 21 kontrol senaryosu var. Bunlar belge ve ekran akışı kontrolleridir; çalışan uygulama testi yürütülmedi. Sonuç sütunları henüz bağımsız kontrol sonucu olarak kapatılmadı.
 
-## Takip ettiğim kararlar
+Eray'ın 19 Kasım'daki beş kararı ve Durum sütunu Kadir tarafından işlenmiş; Kübra bunları karşılanmış olarak kaydetmiş. Eray'ın 21 Kasım'daki 48 saat rezervasyon kararı Kübra'nın dosyalarında var, Kadir'in US-11/12 güncellemesi bekleniyor. Kübra bu güncelleme ve örnek veri eşitlemesinden sonra #40'ı onaylayacağını yazmış. #44 için Kadir'in önceki incelemesi yorum niteliğinde; güncel sürüme nihai onay henüz yok. Eray'ın nihai PO kabulü de bekleniyor.
 
-Eray'ın PR #40'taki beş kararı: aktif ve uygun hesap koşulu, öğrenci başına en fazla üç aktif ödünç, aktif kayıt yoksa iadenin reddi, rezervasyon ve önceki uzatma kontrolüyle bir kez yedi gün uzatma ve aynı koşullarda görevli tarafından uzatma. Uygulama ve senaryo güncellemeleri Kadir'de.
+## Kendi tamamladıklarım
 
-US-13 U01 ile US-15 L01 aynı ödünç listesini gösteriyor. Durum sütunu eşitlenecek. Rezervasyon sırası ve teslim alma süresi gibi açık ürün kurallarını Eray netleştirecek; ekip onayı olmayan bir kuralı kabul edilmiş saymadım.
+- Sprint 2 kapanış PR #41'imi, Kadir'in 21 Kasım onayından sonra 22 Kasım'da merge commit ile develop'a birleştirdim. Birleşme: `c67035ea257faab67e31a46987a0bf2d7215f994`.
+- Ortak S3 raporunda Review'u ve kendi 21–22 Kasım günlüklerimi güncelledim. Diğer üyelerin günlüklerini korudum.
+- Enes'in altı riskini koruyarak kategori alanlarını risk türüyle düzelttim; önem derecelerini skor alanına aldım. R02'nin önlemini, yapılan işe uygun olarak Azaltma şeklinde yazdım.
+- R07 kararın ve uygulama kaydının doğrulanması, R08 önceki raporların teslim teyidi risklerini ekledim. Yeni olasılık ve etki puanları benim değerlendirmem; ekip takipte gözden geçirecek. Ortak defter artık sekiz kayıt içeriyor.
+- 9. hafta 19. sayfadaki Kriz Simülasyonu #1 için kaynak, etki, seçenekler ve önerimi rapora yazdım. Ekip kararı ve gerçekleşen uygulama açık bırakıldı. Sınıftaki kurgusal talebi, ekipçe kabul edilip uygulanmış değişiklik olarak göstermedim.
 
-## Kalan kayıtlar ve kendi takibim
+## Sonraki takip
 
-- Ortak raporun Review bölümünü, teslim durumlarını ve kendi 20 Kasım günlüğümü güncelledim.
-- PR #41 için Kadir'in, bu raporun PR #43 incelemesi için Esat'ın dönüşünü bekliyorum. İnceleme beklemek bugünkü çalışmalarımı engellemedi.
-- Esat Planning PR #42'yi de inceleyecek. Kadir PR #44'ü inceleyecek; Eray nihai ürün kabulünü verecek.
-- Enes ortak risk defterindeki en az sekiz kaydı tamamlayacak. Slack'teki iki risk önerisi henüz tamamlanmış defter değil.
-- Gerçek projeye verilen kriz ve alınan karar netleşince değişen işler ile uygulama kanıtları kaydedilecek. Sınıftaki sosyal medya örneğini CODEX'e atanmış kriz olarak kabul etmedim.
-- Kapanışta Kadir'le Review'u son çıktılarla tamamlayacağım. Sprint Report, Burndown ve dalı/tarih aralığı belirtilmiş Contributors görüntüleri o aşamada eklenecek. Retrospektif Kübra ve Enes'te.
+Kadir iki ortak düzeltmeyi tamamlar; Kübra tekrar kontrol eder; Eray nihai kabulü verir. Kadir güncel #44'ü de inceler. Esat'ın #42 Planning ve kendi #43 rapor incelemesi bekleniyor. Risk defterinin düzenli takibi Enes'te kalıyor; Eray ve Esat kriz senaryosuna verilecek ekip kararını ve S1/S2 teslim teyidini netleştirecek.
+
+Sprint kapanışında Kadir'le Review'u tamamlayacağım. S3 Sprint Report, Burndown ve dal/tarih aralığı belirtilmiş Contributors görsellerini kapanış verileriyle alacağım. Retrospektif Kübra ve Enes'te.
 
 ## Kaynaklar
 
 - [Jira panosu](https://dagdelen41.atlassian.net/jira/software/c/projects/KKY/boards/2)
 - [Trello panosu](https://trello.com/b/BYmjSKQd/kutuphane-kaynak-yonetim-sistemi)
-- [PR #40](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/40)
-- [PR #41](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/41)
-- [PR #42](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/42)
-- [PR #43](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/43)
-- [PR #44](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/44)
+- [Kadir PR #40](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/40)
+- [Birleşen PR #41](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/41)
+- [Planning PR #42](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/42)
+- [Rapor PR #43](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/43)
+- [Kübra PR #44](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/44)
+- [9. hafta sunumu](https://trello.com/c/dTBogw9W), sayfa 19–20
