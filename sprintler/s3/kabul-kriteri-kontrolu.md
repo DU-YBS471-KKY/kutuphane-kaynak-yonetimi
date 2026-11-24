@@ -67,3 +67,47 @@ Kontrol ettiğim sürüm: Kadir'in 21 Kasım'daki iki commit'i ("US-11 12 13 tas
 - Örnek veri: Kadir'in PR #44'teki notu üzerine US-15'te 2000000001 numaralı öğrencinin Örnek Kitap B'sini 04.11.2026 ödünç, 19.11.2026 iade tarihi olarak değiştirdim. Bu öğrencinin 18.11.2026'da 1 aktif ödüncü var. US-11'de aynı öğrencinin başlangıçtaki aktif ödüncü 0 ve O03'te 1 / 3 yazıyor; bunlar 1 ve 2 / 3 olmalı. US-13 U01'deki Örnek Kitap B satırı da 04.11.2026 / 19.11.2026 olmalı.
 
 Bu iki nokta işlenince PR #40'ı onaylayacağım. Kadir'in dosyalarındaki "Sonuç" sütunlarına dokunmadım.
+
+## 24 Kasım 2026: PR #40 birleşme sonrası senaryo kontrolüm
+
+Kontrol ettiğim sürüm: PR #40'ın Eray tarafından birleştirilmesinden sonraki `develop` dalı; `test/us-11-kontrol.md`, `test/us-12-kontrol.md`, `test/us-13-kontrol.md` ve ilgili tasarım dosyaları. Senaryoları Kadir'in yazdığı beklenen sonuçlarla ve tasarım dosyalarındaki kanıtlarla karşılaştırdım. Bu da bir belge kontrolüdür; çalışan bir uygulamada test yapılmadı. Kadir'in dosyalarındaki "Sonuç" sütunlarına dokunmadım.
+
+### Senaryo karşılaştırmam
+
+| Senaryo | Kriter | Kontrol ettiğim | Belgedeki kanıt | Sonucum |
+|---|---|---|---|---|
+| KS-11-01 | US-11 / 1 | Öğrenci ve K-001 okutulunca başlık, yazar, ISBN, kopya kodu ve MUSAIT durumu görünür. | O01 | Uyumlu |
+| KS-11-02 | US-11 / 2 | K-002 için "ödünçte" uyarısı, pasif düğme, kayıt oluşmaması. | O02 | Uyumlu |
+| KS-11-03 | US-11 / 2 | K-003 için "bakımda" uyarısı, pasif düğme, kayıt oluşmaması. | O02, US-09 B02 | Uyumlu |
+| KS-11-04 | US-11 / 3 | 18.11.2026 + 15 gün = 03.12.2026; ay geçişi doğru. | O01, işlem sırası | Uyumlu |
+| KS-11-05 | US-11 / 3 | Kayıt özeti ve stok azalması doğru. Ancak senaryoda aktif ödünç 1 / 3 yazıyor; 2000000001'in 18.11.2026'da zaten 1 aktif ödüncü olduğu için işlem sonrası 2 / 3 olmalı. | O03 | Düzeltme bekliyor (#50) |
+| KS-11-06 | PO kararı | Pasif hesapta uyarı, kopya alanı açılmıyor, kayıt yok. | O02, işlem sırası | Uyumlu |
+| KS-11-07 | PO kararı | Gecikmiş veya cezalı kitapta uyarı, kayıt yok. | O02, işlem sırası | Uyumlu |
+| KS-11-08 | PO kararı | 3 / 3 dolu hesapta limit uyarısı, kayıt yok. | O02 | Uyumlu |
+| KS-11-09 | PO kararı | 2 aktif ödünçlü öğrencide kayıt oluşur, 3 / 3 olur. | O01, O03 | Uyumlu |
+| KS-12-01 | US-12 / 1 | Sağlam iadede K-001 Müsait, verilebilir kopya 1'den 2'ye çıkar. | I02, US-06 KS-06-04 | Uyumlu |
+| KS-12-02 | US-12 / 2 | Hasarlı iadede K-001 Bakımda, sayı 1'de kalır. | I03, US-09 B02 | Uyumlu |
+| KS-12-03 | US-12 / 3 | Sağlam iadede iade tarihi 25.11.2026 ve görevli kayıtta. | I02 | Uyumlu |
+| KS-12-04 | US-12 / 3 | Hasarlı iadede de tarih ve görevli kayıtta, ödünç kaydı kapanır. | I03 | Uyumlu |
+| KS-12-05 | PO kararı | Aktif kaydı olmayan kopyada uyarı, iade başlamaz, stok değişmez. | I04, işlem sırası | Uyumlu |
+| KS-13-01 | US-13 / 3 | 03.12.2026 + 7 gün = 10.12.2026; hak 1 / 1 kullanıldı. | U02 | Uyumlu |
+| KS-13-02 | US-13 / 1 | İkinci uzatma reddedilir, tarih 10.12.2026'da kalır. | U03 | Uyumlu |
+| KS-13-03 | US-13 / 1 | İade tarihi geçmiş kayıtta uzatma reddedilir. | U03 | Uyumlu |
+| KS-13-04 | US-13 / 2 | Aktif rezervasyonda red ve sebep; rezerve edenin adı görünmez. US-14 ile aynı kural. | U03, işlem sırası | Uyumlu |
+| KS-13-05 | US-13 / 3 | Listede 10.12.2026, ODUNCTE, uzatma 1 / 1; sütunlar US-15 L01 ile aynı. | U01, U02 | Uyumlu |
+| KS-13-06 | PO kararı | İade gününde (03.12.2026) uzatma kabul edilir, yeni tarih 10.12.2026. | U03, işlem sırası | Uyumlu |
+| KS-13-07 | PO kararı | Görevli öğrenci adına uzatır, yeni tarih 10.12.2026 ve görevli kayıtta. | U04 | Uyumlu |
+| KS-13-08 | PO kararı | Rezervasyonlu kitapta görevli denemesi de reddedilir. | U04, U03 | Uyumlu |
+
+### Özet
+
+- 22 senaryodan 21'i uyumlu. KS-11-05 düzeltme bekliyor.
+- Jira kabul kriterleri: 9 kriterin 9'u uyumlu.
+
+### Issue #50'de açık kalan maddeler
+
+Bu maddeleri [Issue #50](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/issues/50) ile Kadir'e ilettim. Düzeltmeler gelince yeniden kontrol edip sonucumu bu dosyaya ekleyeceğim.
+
+1. US-12 ve US-11: Eray'ın 21 Kasım'daki 48 saat kararı dosyalarda yok. Sağlam iade edilen kopyanın aktif sırası varsa Rezerve olması, yalnızca sıradaki öğrenciye verilmesi ve 48 saat içinde alınmazsa sıradakine veya Müsait durumuna geçmesi için ekran ve senaryolar eklenmeli.
+2. US-11: 2000000001'in başlangıçtaki aktif ödüncü 0 değil 1 olmalı; O01'de 1 / 3, O03'te ve KS-11-05'te 2 / 3 yazmalı.
+3. US-13: U01'deki Örnek Kitap B satırı 04.11.2026 ödünç, 19.11.2026 iade olarak güncellenmeli (US-15 ile aynı örnek veri).
