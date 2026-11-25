@@ -1,6 +1,6 @@
 # US 13 ödünç süresini uzatma ekranı ve işlem akışı
 
-Sorumlu: Abdülkadir Güneş | Tarih: 18 Kasım 2026 | Güncelleme: 21 Kasım 2026  
+Sorumlu: Abdülkadir Güneş | Tarih: 18 Kasım 2026 | Güncelleme: 25 Kasım 2026  
 Jira: [KKY-12](https://dagdelen41.atlassian.net/browse/KKY-12) | Sprint 3 | 3 SP  
 Durum: Eray'ın 19 Kasım PO kararları işlendi. Liste sütunları Kübra'nın US-15 L01 taslağıyla eşitlendi. Kübra'nın nihai kontrolü bekleniyor.
 
@@ -14,10 +14,10 @@ ODUNC KAYITLARIM                        Oturum: Ogrenci (2000000001)
 
 Kitap          Odunc tarihi  Guncel iade  Durum            Uzatma  Islem
 Ornek Kitap A  18.11.2026    03.12.2026   ODUNCTE          0 / 1   [Sureyi uzat]
-Ornek Kitap B  01.11.2026    16.11.2026   ! GECIKMIS       0 / 1   -
+Ornek Kitap B  04.11.2026    19.11.2026   ! GECIKMIS       0 / 1   -
 ```
 
-Sütunlar US-15 L01 ile aynıdır. Her satırda kitap adı, ödünç tarihi, güncel iade tarihi, durum ve uzatma hakkı görünür. Öğrenci yalnızca kendi kayıtlarını görür. Bu US-15 kriter 1 ile aynıdır. İade tarihi geçmiş kayıtta "Sureyi uzat" düğmesi gösterilmez.
+Sütunlar ve örnek kayıtlar US-15 L01 ile aynıdır. Her satırda kitap adı, ödünç tarihi, güncel iade tarihi, durum ve uzatma hakkı görünür. Öğrenci yalnızca kendi kayıtlarını görür. Bu US-15 kriter 1 ile aynıdır. İade tarihi geçmiş kayıtta "Sureyi uzat" düğmesi gösterilmez.
 
 ## U 02 onaylanan uzatma
 
