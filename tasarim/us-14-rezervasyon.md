@@ -1,8 +1,8 @@
 # US 14 ödünçteki kitabı sırayla rezerve etme ekranı ve sıra kuralları
 
-Sorumlu: Kübra Şen | Tarih: 20 Kasım 2026 | Güncelleme: 21 Kasım 2026  
+Sorumlu: Kübra Şen | Tarih: 20 Kasım 2026 | Güncelleme: 25 Kasım 2026  
 Jira: [KKY-21](https://dagdelen41.atlassian.net/browse/KKY-21) | Sprint 3 | 5 SP  
-Durum: Eray'ın 21 Kasım PO kararları işlendi. Bağımsız kontrol bekleniyor.
+Durum: Eray'ın 21 Kasım PO kararları işlendi. Kadir'in 25 Kasım bağımsız kontrolünde 13 senaryonun 13'ü uyumlu (PR #53).
 
 Öğrencinin tüm kopyaları ödünçte olan bir kitap için rezervasyon sırasına girmesini, aynı kitap için ikinci kez sıraya girememesini ve sıranın nasıl korunduğunu aşağıdaki ekranlarla gösterdim. Taslaklar çalışan uygulama ekranı değildir. Rezervasyon kitabın kendisi için yapılır, tek bir kopya için yapılmaz. Kopya ve durum adları (Müsait, Ödünçte, Bakımda) US-09, US-11 ve US-12 ile aynıdır. Eray'ın 21 Kasım kararıyla kopyalar için bir durum daha ekledim: Rezerve. Rezerve Et düğmesi Esat'ın US-06 kitap detayı taslağındaki düğmedir.
 
@@ -154,6 +154,6 @@ Bu kabul kriterlerinde yok. Yeni kural eklemedim.
 
 - Aynı saniyede gelen iki talebin sırası. US-17 ile birlikte Sprint 4'te netleşecek.
 
-Örnek öğrenciler (2000000011–2000000013) US-11 ve US-15'teki örnek öğrencilerden ayrıdır. Böylece bir senaryodaki gecikme ya da ödünç sayısı diğer dosyadaki örnekle çakışmaz.
+Örnek Öğrenci A, B ve C adları yalnızca 2000000011–2000000013 için kullanılır. Kadir'in US-11 ve US-12 rezerve senaryoları da aynı öğrencileri kullanır. US-15'teki öğrenciler (2000000001–2000000003) numarayla anılır (#54).
 
 [Kontrol senaryoları](../test/us-14-kontrol.md) · [Gereksinimler](../docs/gereksinimler/kubra-us-14-17-hazirlik.md)
