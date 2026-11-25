@@ -9,16 +9,17 @@ Review’u ve ortak raporu güncelledim; PR #49’um Eray’ın onayıyla develo
 ## Bugün
 
 - Jira, Trello, GitHub, Slack ve ortak rapordaki durumu kontrol ettim.
-- Üç ders bug’ının adımlarını, beklenen ve hatalı sonuçlarını, görsellerini kontrol ettim. KKY-28’in eksik görselini ekledim, başlığını temizledim ve önceliğini Yüksek yaptım.
-- Ortak rapordaki Review’u PR #51–53, 46 senaryo, Kadir’in 21/21 uyumlu bağımsız kontrolü ve doğrulanan Jira yorumlarıyla güncelledim. Kendi 25 Kasım Daily satırımı doldurdum.
-- PR #52’deki stok geçişi bulgusunu kaydettim: yalnızca Müsait → Ödünçte geçişinde müsait sayı 1 azalmalı; Rezerve → Ödünçte geçişinde değişmemeli.
-- KKY-26’da atama ve tasarım sorumlusunun Enes olarak eşitlendiğini doğruladım. Eski bekleme ifadelerini rapor ve risk takibinde düzelttim; önerilen 2 SP ve Trello karşılığı takipte.
-- Güncel rapor kopyasını ve Review kaydımı inceleme için hazırladım.
+- Üç ders bug’ının adım, beklenen/hatalı sonuç ve görsellerini kontrol ettim. KKY-28’in eksik görselini ekledim, başlığını temizledim ve önceliğini Yüksek yaptım. İlgili Story bağlantılarını ekledim.
+- Review, ortak rapor, risk takibi ve kendi Daily satırımı güncelledim; ilk güncellemem PR #56 ile Eray’ın onayıyla develop’a birleşti.
+- Akşam PR #51–53, #56 ve #57’nin birleştiğini doğruladım. Kübra’nın 24/25 ve Kadir’in 21/21 uyumlu kontrolünü Review’a işledim; toplam 45/46 senaryo uyumlu.
+- US-11 stok geçişi bulgusunu açık tuttum. PR #52 birleştiği için yeni düzeltme PR’ı ve Kübra’nın yeniden kontrolü gerektiğini kaydettim.
+- KKY-26’nın Story türünde 2 SP olduğunu, Trello kartının açıldığını ve Sprint 4’ün altı iş / 21 SP olduğunu doğruladım. Eski bekleme ifadelerini düzelttim; KKY-30 kopyasının netleştirilmesini takip listesine ekledim.
+- Güncel Word kopyasını ve Review kaydını inceleme için hazırladım.
 
 ## Engel
 
-Yok. Son kontrol ve kapanış adımlarını Review’daki takip listesiyle izliyorum.
+Yok. Son kontrol, kabul ve kapanış adımlarını Review’daki takip listesiyle izliyorum.
 
 ## Sonraki adım
 
-Kadir’in son düzeltmesi, Kübra’nın incelemesi ve Eray’ın güncel kabulünden sonra Esat’ın sprint kapanışını takip edeceğim. Nihai SP ve hedef sonucunu, Sprint Report ve Burndown görüntülerini gerçek kapanışta ekleyeceğim.
+Kadir’in stok düzeltmesi, Kübra’nın yeniden kontrolü ve Eray’ın kabulünden sonra Esat’ın sprint kapanışını takip edeceğim. Nihai SP ve hedef sonucunu, Sprint Report ve Burndown görüntülerini gerçek kapanış verileriyle ekleyeceğim.
