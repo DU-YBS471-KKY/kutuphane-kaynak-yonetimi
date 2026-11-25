@@ -123,3 +123,14 @@ Kadir'in [PR #52](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pul
 | Rezerve kopyanın ödüncünde stok | O03 ve işlem sırasında her ödünçte "müsait sayı 1 azalır" yazıyor. Rezerve → Ödünçte geçişinde sayı değişmemeli (I05'te zaten 0). KS-11-11'de stok kontrolü yok. Mert'in bulgusunu doğruluyorum. | Düzeltme bekliyor |
 
 Özet: 25 senaryonun 24'ü uyumlu. KS-11-11, O03 ve işlem sırasındaki stok ifadesi düzelince uyumlu olacak. Bu düzeltme gelince PR #52'yi onaylayacağım.
+
+## 25 Kasım 2026 (akşam): PR #59 stok düzeltmesi kontrolüm
+
+PR #52, Eray'ın onayıyla develop'a birleşti; açık kalan stok maddesini Kadir [PR #59](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/59) ile düzeltti.
+
+| Konu | Gördüğüm | Sonucum |
+|---|---|---|
+| US-11 O03 ve işlem sırası | Müsait kopya verilince müsait sayı 1 azalıyor; Rezerve kopya verilince sayı değişmiyor. US-12 I05 ile aynı (0 kalıyor). | Uyumlu |
+| KS-11-11 | "Kitap C'nin müsait kopya sayısı değişmez, 0 kalır" eklendi. İade tarihi 26.11.2026 + 15 gün = 11.12.2026, doğru. Benim KS-14-11 ile tutarlı. | Uyumlu |
+
+Özet: US-11, US-12 ve US-13'te 25 senaryonun 25'i uyumlu. Kadir'in US-14 ve US-15 kontrolüyle (21/21) birlikte Sprint 3'teki 46 senaryonun hepsi karşılıklı kontrol edildi ve uyumlu.
