@@ -120,4 +120,15 @@ Eray 21 Kasım'da PR #40 ve PR #44'te şu kararı verdi. I05 ekranına ve KS-12-
 - İade tarihi geçmişse gecikme cezası bu ekranda hesaplanmıyor. Ceza US-18'de, Enes'in işi. Bu ekrandaki iade tarihi onun hesabına girdi olacak.
 - Sağlam iade edilen kopya Rezerve olunca sıradaki öğrenciye bildirim US-17'de oluşur. 48 saat bildirim anından başlar. Kübra'nın US-14 R06 bölümüyle aynı.
 
+## KKY 29 iade sonrası listeye geçiş
+
+Mert Seçkin — 25 Kasım 2026, Sprint 4 hazırlığı
+
+İadeyi tamamla işleminde ödünç kaydı kapatılır, iade tarihi ve görevli kaydedilir, kopyanın durumu mevcut I02, I03 veya I05 kuralına göre güncellenir. Bu adımlar tamamlandıktan sonra "İade alındı" mesajı gösterilir. İşlem tamamlanamazsa başarı mesajı gösterilmez; kayıt aktif listeden kaldırılmış gibi gösterilmez.
+
+Öğrenci listesini yenilediğinde kapanan ödünç kaydı Aktif sekmesinde bulunmaz. Aynı kayıt, iade tarihi ve "İade edildi" durumuyla Geçmiş sekmesinde bir kez görünür. Bu geçiş kopya Müsait, Bakımda veya Rezerve olduğunda da geçerlidir. Kopyanın stok durumu ile öğrencinin ödünç kaydının durumu ayrı değerlendirilir.
+
+Kontrol kaydı: [KKY-29 iade ve liste senaryoları](../test/kky-29-iade-liste-kontrol.md). Bu bölüm ders kapsamındaki belge ve akış düzeltmesidir; bağımsız kontrol bekleniyor.
+
 [Kontrol senaryoları](../test/us-12-kontrol.md) · [Gereksinimler](../docs/gereksinimler/kadir-us-11-13-hazirlik.md)
+

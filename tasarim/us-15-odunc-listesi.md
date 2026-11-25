@@ -99,4 +99,15 @@ Bu kabul kriterlerinde yok. Yeni kural eklemedim.
 
 - Gecikmiş kayıtta kaç gün geciktiği gösterilecek mi? Gecikme cezası US-18'de, Enes'in işi. Gün sayısı oradaki hesapla birlikte netleşmeli.
 
+## KKY 29 aktif ve geçmiş kayıt ayrımı
+
+Mert Seçkin — 25 Kasım 2026, Sprint 4 hazırlığı
+
+Aktif sekmesine oturumdaki öğrencinin henüz iadesi tamamlanmamış ödünç kayıtları alınır. Geçmiş sekmesine aynı öğrencinin iadesi tamamlanmış kayıtları alınır. Ayrım kitabın başlığına veya kopyanın stok durumuna göre yapılmaz. Böylece iade edilen bir kopya Bakımda ya da Rezerve olsa da öğrencinin aktif ödüncünde kalmaz; başka kopyalara ait açık ödünçler de yanlışlıkla listeden çıkarılmaz.
+
+US-12'de başarılı iade sonrası liste yenilendiğinde kapanan kayıt yalnızca Geçmiş sekmesinde, iade tarihi ve "İade edildi" bilgisiyle görünür. Sayfa yeniden açıldığında da sonuç aynıdır. Aynı iade kaydı geçmişe ikinci kez eklenmez. Başarısız iade denemesinde kayıt aktif kalır ve tamamlanmış iade gibi geçmişe geçirilmez.
+
+Kontrol kaydı: [KKY-29 iade ve liste senaryoları](../test/kky-29-iade-liste-kontrol.md). Bu bölüm ders kapsamındaki belge ve akış düzeltmesidir; bağımsız kontrol bekleniyor.
+
 [Kontrol senaryoları](../test/us-15-kontrol.md) · [Gereksinimler](../docs/gereksinimler/kubra-us-14-17-hazirlik.md)
+
