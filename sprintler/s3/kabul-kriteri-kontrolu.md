@@ -111,3 +111,15 @@ Bu maddeleri [Issue #50](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonet
 1. US-12 ve US-11: Eray'ın 21 Kasım'daki 48 saat kararı dosyalarda yok. Sağlam iade edilen kopyanın aktif sırası varsa Rezerve olması, yalnızca sıradaki öğrenciye verilmesi ve 48 saat içinde alınmazsa sıradakine veya Müsait durumuna geçmesi için ekran ve senaryolar eklenmeli.
 2. US-11: 2000000001'in başlangıçtaki aktif ödüncü 0 değil 1 olmalı; O01'de 1 / 3, O03'te ve KS-11-05'te 2 / 3 yazmalı.
 3. US-13: U01'deki Örnek Kitap B satırı 04.11.2026 ödünç, 19.11.2026 iade olarak güncellenmeli (US-15 ile aynı örnek veri).
+
+## 25 Kasım 2026: PR #52 kontrolüm (#50 düzeltmesi)
+
+Kadir'in [PR #52](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/52) dalındaki US-11, US-12 ve US-13 dosyalarını kontrol ettim. Toplam 25 senaryo: KS-11-01..11, KS-12-01..06, KS-13-01..08.
+
+| Konu | Gördüğüm | Sonucum |
+|---|---|---|
+| 48 saat Rezerve kuralı | US-12 I05 ve KS-12-06; US-11 O02'de iki yeni satır, KS-11-10 ve KS-11-11. Benim KS-14-04 ve KS-14-11 ile aynı veri. | Uyumlu |
+| Ortak örnek veri | US-11'de 2000000001 aktif ödünç 1 ile başlıyor; O01 1 / 3, O03 ve KS-11-05 2 / 3. US-13 U01'de Kitap B 04.11.2026 / 19.11.2026. | Uyumlu |
+| Rezerve kopyanın ödüncünde stok | O03 ve işlem sırasında her ödünçte "müsait sayı 1 azalır" yazıyor. Rezerve → Ödünçte geçişinde sayı değişmemeli (I05'te zaten 0). KS-11-11'de stok kontrolü yok. Mert'in bulgusunu doğruluyorum. | Düzeltme bekliyor |
+
+Özet: 25 senaryonun 24'ü uyumlu. KS-11-11, O03 ve işlem sırasındaki stok ifadesi düzelince uyumlu olacak. Bu düzeltme gelince PR #52'yi onaylayacağım.
