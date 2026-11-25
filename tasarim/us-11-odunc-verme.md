@@ -66,7 +66,7 @@ Aktif odunc    2 / 3
                               [Yeni islem]
 ```
 
-Kayıt oluşunca iade tarihi kayıtta görünür. Kopyanın durumu Ödünçte olur ve kitabın müsait kopya sayısı 1 azalır. Bu US-06'daki stok bilgisiyle de tutarlıdır. Öğrencinin aktif ödünç sayısı 1 artar.
+Kayıt oluşunca iade tarihi kayıtta görünür. Kopyanın durumu Ödünçte olur ve öğrencinin aktif ödünç sayısı 1 artar. Müsait kopya ödünç verilince kitabın müsait kopya sayısı 1 azalır. Bu US-06'daki stok bilgisiyle de tutarlıdır. Rezerve kopya ödünç verilince müsait kopya sayısı değişmez. Kopya iade edildiği anda Rezerve olduğu için bu sayıya hiç eklenmemişti. US-12 I05'te sayı 0 görünür ve ödünçten sonra da 0 kalır.
 
 ## İşlem sırası
 
@@ -81,8 +81,9 @@ Ekrani ac -> Ogrenci kartini okut
      Baskasina ayrildiysa O02 uyarisi, kayit yok
   -> Oduncte ya da Bakimda: O02 uyarisi, kayit yok, baska kopya okutulabilir
   -> Iade tarihi = odunc tarihi + 15 gun
-  -> Odunc ver -> O03 kayit ozeti -> Kopya ODUNCTE, musait sayi 1 azalir
-  -> Kopya Rezerve idiyse ogrencinin rezervasyonu TAMAMLANDI olur
+  -> Odunc ver -> O03 kayit ozeti -> Kopya ODUNCTE
+  -> Kopya Musait idiyse musait sayi 1 azalir
+  -> Kopya Rezerve idiyse musait sayi degismez, ogrencinin rezervasyonu TAMAMLANDI olur
 ```
 
 | Kabul kriteri veya PO kararı | Tasarım kanıtı | Kontrol kaydı |
