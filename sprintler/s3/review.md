@@ -50,7 +50,7 @@ Mert Seçkin — 25 Kasım kapanışı; ekler 26 Kasım 2026’da tamamlandı.
 | US-11-13 | Stok düzeltmesi PR #59 ve yeniden kontrol PR #60 birleşti. 25/25 uyumlu; Jira’da üç iş Done. | Bu bulgu için bekleyen düzeltme veya inceleme yok. Esat sprinti 25 Kasım 23.36’da kapattı; gerçekleşen tarih ve kapanış görselleri Review’a eklendi. |
 | US-14-15 | 21/21 uyumlu bağımsız kontrol ve örnek veri düzeltmesi birleşti. Jira ve Trello’da iki iş Done. | Sprint 3 kabulü ve kapanışı tamamlandı. İade/liste geçişiyle ilgili ayrı ders bug’ı KKY-29, Sprint 4’te PR #61 ile incelemede; önceki 46/46 sonucuna yeni test sonucu eklenmedi. |
 | Planning | PR #42 Esat’ın onayından sonra 24 Kasım’da develop’a birleşti. | Planning için bekleyen birleştirme kalmadı; yeni kriz işi Sprint 4 planında takip edilecek. |
-| Risk ve kriz kayıtları | Sekiz risk hazır. KKY-26 Story türünde 2 SP ve Trello’da mevcut. Üç ders bug’ı da Sprint 4’e alındı; plan 6 Story ve 3 bug, toplam 9 iş. Jira 21 SP gösteriyor; bug’lar henüz puanlanmamış. | Paylaşım işi Enes, kontrol Kübra, kabul Eray’da. Bug’larda KKY-27 Esat, KKY-28 Kadir, KKY-29 Mert’e atanmış. KKY-30 kopyası Enes ve Esat tarafından netleştirilecek. S1/S2 teslim teyidi Eray ve Esat’tadır. |
+| Risk ve kriz kayıtları | Sekiz risk hazır. KKY-26 Story türünde 2 SP ve Trello’da mevcut. Üç ders bug’ı da Sprint 4’e alındı; plan 6 Story ve 3 bug, toplam 9 iş. Jira 21 SP gösteriyor; bug’lar henüz puanlanmamış. | Sprint 4 paylaşım işi Enes, kontrol Kübra; ürün kabulü PO Kübra’da. Scrum Master Mert (27 Kasım rol devri). Bug’larda KKY-27 Esat, KKY-28 Kadir, KKY-29 Mert’e atanmış. KKY-30 kopyası Enes, PO Kübra ve SM Mert tarafından netleştirilecek. S1/S2 teslim teyidi Eray ve Esat’tadır. |
 
 ## 3.6. Ekler
 
@@ -73,3 +73,5 @@ Ek 4 — Kriz öncesi ve sonrası plan 6. bölümde kayıtlıdır. KKY-26 payla�
 - [US-11 stok düzeltmesi PR #59](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/59)
 - [Kübra’nın 25/25 yeniden kontrolü PR #60](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/60)
 - [Sprint 4 KKY-29 hazırlığım; bağımsız incelemede PR #61](https://github.com/DU-YBS471-KKY/kutuphane-kaynak-yonetimi/pull/61)
+
+27 Kasım rol devri notum: Sprint 3’ün gerçekleşen PO/SM, kapanış ve kontrol sonuçları korunmuştur. Sprint 4’e yönelik sonraki adımlar PO Kübra ve SM Mert olarak güncellenmiştir.

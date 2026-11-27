@@ -9,13 +9,15 @@ Kapanış sonucunu ortak rapora işledim. 25 Kasım’da aldığım Sprint Repor
 ## Sprint 4 takibi
 
 - Plan: altı Story / 21 SP ve üç puanlanmamış ders bug’ı; toplam dokuz iş.
-- KKY-26 paylaşım işi Enes’te; bağımsız kontrol Kübra, PO kabulü Eray’da. Uygulama çıktısı henüz tamamlanmadı.
+- KKY-26 paylaşım işi Enes’te; bağımsız kontrol ve Sprint 4 ürün kabulü PO Kübra’da; Scrum Master benim (27 Kasım rol devri). Uygulama çıktısı henüz tamamlanmadı.
 - Bug atamaları: KKY-27 Esat, KKY-28 Kadir, KKY-29 Mert.
 - KKY-29 için iade/liste akışını ve beş kontrol senaryosunu PR #61 ile incelemeye açtım; Kübra’nın kontrolü ve PO kabulü bekleniyor. Bu beş senaryo, Sprint 3’ün tamamlanan 46 kontrolüne eklenmedi.
-- KKY-30 kopyası ve S1/S2 teslim/erişim teyidi Esat, Eray ve ilgili sorumlularca netleştirilecek.
+- KKY-30 kopyasını Enes, PO Kübra ve ben netleştireceğiz. Geçmiş S1/S2 teslim/erişim teyidi Eray ve Esat’tadır.
 
 - [Review kapanış kaydım](review.md)
 - [25 Kasım çalışma kaydım](mert-25-kasim.md)
 - [Ortak raporun Word kopyası](Sprint_3_Raporu.docx)
 
 Ortak raporun bu arşiv kopyası 26 Kasım 2026’da hazırlandı. Diğer üyelerin Daily ve Retro görüşleri kendi kayıtlarıdır; sonraki güncellemeler ortak raporda takip edilir.
+
+27 Kasım rol devri notum: Sprint 3’ün gerçekleşen PO/SM, kapanış ve kontrol sonuçları korunmuştur. Sprint 4’e yönelik sonraki adımlar PO Kübra ve SM Mert olarak güncellenmiştir.
