@@ -1,38 +1,26 @@
-# Sprint 4 rol devri ve görev sırası
+# Sprint 4 — aktif çalışma ve görev sırası
 
 Mert Seçkin — 27 Kasım 2026
 
-Ekip rehberindeki Sprint 3 sonrası rol değişimini kayda geçiriyorum. Sprint 4’te Product Owner Kübra, Scrum Master benim. Eray ve Esat geliştirici olarak devam ediyor. Mevcut Story ve bug sorumluları korunuyor.
+Sprint 4’ü 27 Kasım 2026 saat 23.09’da Jira’da başlattım. Bitiş hedefi 11 Aralık 2026 saat 23.55 (Türkiye saati). PO Kübra, Scrum Master benim. Sprintte 5 Story / 16 SP ve 3 bug olmak üzere 8 iş var. Üç bug’ın eforu ayrıca netleştirilecek.
 
-| Kişi | Şimdi yapacağı | Neyi veya kimi bekliyor |
+Kübra’nın en düşük öncelikli / ilk çıkarılacak iş olarak belirttiği US-20’yi (KKY-18, 5 SP) açılışta backlog’da bıraktım. Eray ve Enes’in devir teyidi ile PO’nun kapsam kararı bekleniyor. İşin mevcut ataması Enes’te; aktif sprintteki yükü 10 SP. KKY-30 kopyası da sprint dışında.
+
+| Kişi | Şimdi yapacağı | Neyi/kimi bekliyor |
 |---|---|---|
-| Mert | Rol devrini kayıtlara işler; S4 raporunu, Daily’yi ve Jira açılışını hazırlar. PR #61 bulgularını düzeltir. | Açılış: Kübra’nın hedef/kapsam teyidi ve üyelerin kapasitesi. PR #61: Kübra; PR #64: Kadir. |
-| Kübra | Planning hedefini ve 9 işlik kapsamı gözden geçirir; kapasiteyi ekiple teyit eder. PR #61’i kontrol eder; US-16/17 bulgularını düzeltir. | US-16/17 incelemesi: Eray ve Kadir. Paylaşım QA: Enes’in taslağı. |
-| Eray | Önceki PO kararlarını ve açık ürün sorularını Kübra’ya devreder; PR #62’yi inceler. | İncelemeye başlamak için bekleyen kişi yok. Yeni kapsam kararını Kübra verir. |
-| Esat | Önceki SM takibini Mert’e devreder; KKY-27 arama bug’ının çözüm akışını ve kontrolünü hazırlar. PR #63’ü inceler. | Bu hazırlıklara başlamak için bekleyen kişi yok. |
-| Kadir | Önce PR #64’ü, sonra PR #62’yi inceler; KKY-28 limit bug’ını hazırlar. S3 retrospektif görüşünü ekler. | Bu işlere başlamak için bekleyen kişi yok. |
-| Enes | PR #63 incelemesinden gelenleri işler; önce US-18 ceza hesabı, sonra US-19 tahsilat akışını hazırlar. US-20 ve US-21’i paralel hazırlayabilir. | PR #63: Esat’ın bağımsız kontrolü ve Kübra’nın kapsam teyidi. US-19 kuralı: US-18; paylaşım QA: Kübra. |
+| Mert (SM) | Sprint açılışını ve sekiz işin tarihlerini kaydettim. Daily, Jira takibi ve kapanış kanıtlarını yürüteceğim. PR #61 bulgularını düzelteceğim. | PR #61: Kübra; S3 kapanış PR #64: Kadir. Kapasite ve bug eforu teyitleri takipte. |
+| Kübra (PO) | PR #61 ve #65’i inceler; US-16/17 bulgularını düzeltir. İki haftalık kapasiteyi, US-20 kararını ve ürün kabulünü takip eder. | PR #62: Eray/Kadir; US-21 kontrolü: Enes’in çıktısı. |
+| Eray | PR #62’yi inceler; US-20’yi devralma durumunu Enes’le netleştirir. Önceki PO kararlarını Kübra’ya aktarır. | İncelemeye başlayabilir. US-20’nin sprinte alınması PO kararı ister. |
+| Esat | PR #63’ü inceler; KKY-27 arama bug’ının çözüm ve kontrol kaydını hazırlar. | Başlamak için bekleyen kişi yok. |
+| Kadir | PR #64 ve #62’yi inceler; KKY-28 limit bug’ını hazırlar. S3 retro görüşünü ekler; S4 Review’u takip eder. | Review kapanışı için sprint sonuçları; diğer işlere başlayabilir. |
+| Enes | US-18 ceza hesabından sonra US-19 tahsilatı hazırlar; US-21’i paralel ilerletir. PR #63 bulgularını işler; Trello/risk/retro takibini yapar. | PR #63: Esat/Kübra. US-19: US-18 kuralı; US-21 kontrolü: Kübra. US-20 devri: Eray ve PO. |
 
-## İş sırası
+Öncelik: KKY-29 → KKY-23 → KKY-24 → KKY-16 → KKY-27/28 → KKY-17 → KKY-26. İncelemeler paralel devam eder; S3 kapanış dosyasının birleşmesi S4 çalışmasını bekletmez. US-20 proje backlog’unda takip edilmeye devam eder.
 
-1. Kübra hedefi ve öncelikleri gözden geçirir. Her üye kapasitesini, bug sorumluları eforunu bildirir. Enes’in dört Story / 15 SP yükü özellikle değerlendirilir.
-2. Kapsam ve tarihler netleşince Sprint 4’ü gerçek başlangıç tarihiyle ben açarım. Eski 25 Kasım başlangıcı fiilî başlangıç olarak kullanılmaz. 2 Aralık bitişini Jira’da 23.55’e eşitledim; başlangıç gerçek açılışta güncellenecek.
-3. Kadir PR #64 ve #62’yi, Kübra PR #61’i, Esat PR #63’ü paralel inceleyebilir. İncelemeler için sprint açılışını beklemek gerekmiyor.
-4. Enes US-18 → US-19 sırasını izler; US-20 ve US-21 bağımsız hazırlanabilir. Esat, Kadir ve ben kendi bug’larımızı takip ederiz.
-5. Kontrol bulguları düzeltilir, sonuç kayda geçer. Kübra ürün kabulünü verir; onaylı PR birleşince kartlar Done yapılır. Kendi yazdığı PR’ı başka bir üye inceler.
+- [Planning ve açılış kaydı](planning.md)
+- [Yazılı Daily tablosu](daily.md)
+- [Review takip tablosu](review.md)
+- [Retrospektif](retro.md)
+- [Ortak raporun Word kopyası](Sprint_4_Raporu.docx)
 
-## Raporlar ve kayıtlar
-
-- [Planning hazırlığı](planning.md): sorumlu Kübra; açılış hazırlığını ben kaydettim.
-- [Daily tablosu](daily.md): tablo ve takip bende; herkes kendi satırını doldurur.
-- [Review](review.md): Kadir; Jira sonuçları ve görselleri benden.
-- [Retrospektif](retro.md): Enes ve Kübra; herkes görüşünü iletir.
-- [Ortak raporun Word şablonu](Sprint_4_Raporu.docx): önceki sprintlerle aynı bölüm yapısı.
-
-Sprint 3’te Eray’ın verdiği kararlar ve Esat’ın açılış/kapanış kayıtları geçmiş sprintin kaydıdır. Sprint 4’ün yeni ürün kararlarını Kübra, Jira sprint yönetimini ben takip ederim. S3 kapanış PR #64’ünün incelemesi S4 açılışının ön koşulu değildir.
-
-KKY-30 kopyasını Enes, Kübra ve ben netleştireceğiz. S1/S2 geçmiş teslim/erişim teyidini Eray ve Esat’tan alıp bağlantıları eşleştireceğim. Her gün kısa yazılı Daily yeterli; ayrıca sık toplantı planlamadım.
-
-## 27 Kasım PO teyidi
-
-Kübra hedefi ve 9 işlik aday kapsamı koşullu uygun buldu; 8 saat ayıracağını belirtti. Öncelik sırasını Planning’e işledim. US-20’nin Eray’a devri Eray ve Enes teyidini bekliyor; teyit olmadan atamayı değiştirmedim. Yetişmezse ilk çıkarılacak iş US-20. KKY-30 sprinte alınmayacak; kapatılması Enes teyidini bekliyor. Sprint henüz başlamadı.
+Kübra’nın 8 ve Eray’ın 6 saatlik kayıtları önceki 2 Aralık planına göre girilmişti; üyeler 11 Aralık’a kadar ayırabilecekleri süreyi güncelleyecek. Hazırlanan belge, ekran akışı ve ders bug’ı senaryoları kontrol edilir; çalışma ve sonuçlar gerçekleştiğinde kaydedilir.

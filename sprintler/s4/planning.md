@@ -1,43 +1,49 @@
-# Sprint 4 Planning hazırlığı
+# Sprint 4 Planning ve açılış kaydım
 
-Mert Seçkin — 27 Kasım 2026. Planning sorumlusu ve PO Kübra Şen, SM benim.
+Mert Seçkin — 27 Kasım 2026
 
-## PO’nun koşullu uygun bulduğu hedef
+| Alan | Kayıt |
+|---|---|
+| Durum | Jira’da aktif |
+| Başlangıç | 27 Kasım 2026 23.09 |
+| Bitiş hedefi | 11 Aralık 2026 23.55, Türkiye saati |
+| PO / SM | Kübra Şen / Mert Seçkin |
+| Açılış kapsamı | 5 Story / 16 SP + 3 bug = 8 iş |
 
-Ödünç sonrası bildirim, ceza ve raporlama akışlarını tamamlamak; sınırlı kitap paylaşımını ve üç ders bug’ının çözüm akışlarını bağımsız kontrollerle doğrulamak.
+## Hedef
 
-Kübra hedefi ve 9 işlik aday kapsamı 27 Kasım’da koşullu uygun buldu. US-20’nin Enes’ten Eray’a devri önerildi; Eray/Enes teyidi henüz yok. Jira’da sprint başlamadı. Bitişi 2 Aralık 2026 23.55’e eşitledim; eski 25 Kasım planı gerçekleşen başlangıç sayılmayacak. Başlangıç gerçek açılışta güncellenecek.
+Ödünç sonrası bildirim, ceza ve tahsilat akışlarını hazırlamak; sınırlı kitap paylaşımını ve üç ders bug’ının çözüm akışlarını bağımsız kontrollerle doğrulamak.
 
-PO önceliği: KKY-29 → KKY-23 (US-16) → KKY-24 (US-17) → KKY-16 (US-18) → KKY-27/28 → KKY-17 (US-19) → KKY-26 (US-21) → KKY-18 (US-20). KKY-29 başta sayıldığı için bug grubunda yeniden sayılmaz. Yetişmezse ilk çıkarılacak iş US-20 (5 SP).
+Kübra hedefi ve 9 işlik aday kapsamı koşullu uygun bulmuş, US-20’yi ilk çıkarılacak iş olarak belirtmişti. Devir teyidi açık olduğu için US-20’yi açılışta backlog’da bıraktım; aktif kapsam 8 iş oldu. Enes’in aktif yükü 10 SP. Eray/Enes teyidi ve PO kapsam kararıyla US-20 ayrıca değerlendirilecek. İki haftalık planı kontrol, düzeltme ve kapanış çalışmaları için kaydettim.
 
-| İş | Sorumlu | SP | Durum | Çıktı |
+| İş | Sorumlu | SP | Açılış durumu | Çıktı ve kontrol |
 |---|---|---|---|---|
-| KKY-23 / US-16 | Kübra | 3 | To Do; PR #62 hazır | İade hatırlatması ve 6 kontrol senaryosu. İnceleme: Eray/Kadir. |
-| KKY-24 / US-17 | Kübra | 3 | To Do; PR #62 hazır | Rezervasyon bildirimi ve 6 senaryo. İnceleme: Eray/Kadir. |
-| KKY-16 / US-18 | Enes | 5 | To Do; gereksinim PR #63 | Ceza hesabı ekran/akışı ve sınır senaryoları. |
-| KKY-17 / US-19 | Enes | 3 | To Do; gereksinim PR #63 | Tahsilat ve makbuz ekran/akışı; US-18’e dayanır. |
-| KKY-18 / US-20 | Enes | 5 | To Do; gereksinim PR #63 | Aylık rapor ve rol/boş veri kontrolleri. |
-| KKY-26 / US-21 | Enes | 2 | To Do; gereksinim PR #63 | Kullanıcı onayıyla kitap adı/yazar paylaşımı; QA Kübra. |
-| KKY-27 | Esat | - | To Do | Kitap adıyla arama ders bug’ı; adım ve kontrol sonucu. |
+| KKY-23 / US-16 | Kübra | 3 | To Do; PR #62 hazır | İade hatırlatması; 6 senaryo, Eray/Kadir incelemesi. |
+| KKY-24 / US-17 | Kübra | 3 | To Do; PR #62 hazır | Rezervasyon bildirimi; 6 senaryo, Eray/Kadir incelemesi. |
+| KKY-16 / US-18 | Enes | 5 | To Do; PR #63 gereksinim | Ceza hesabı ekran/akışı ve sınır kontrolleri. |
+| KKY-17 / US-19 | Enes | 3 | To Do; PR #63 gereksinim | Tahsilat ve makbuz; US-18 kuralına bağlı. |
+| KKY-26 / US-21 | Enes | 2 | To Do; PR #63 gereksinim | Kullanıcı onaylı kitap adı/yazar paylaşımı; QA Kübra. |
+| KKY-27 | Esat | - | To Do | Arama ders bug’ı; çözüm ve kontrol sonucu. |
 | KKY-28 | Kadir | - | To Do | 3 kitap limiti ders bug’ı; sınır ve ret kontrolü. |
-| KKY-29 | Mert | - | In Progress; PR #61 | İade sonrası aktif/geçmiş liste akışı; 5 senaryo, QA bekliyor. |
+| KKY-29 | Mert | - | In Progress; PR #61 | İade sonrası liste akışı; 5 senaryo, Kübra incelemesi. |
 
-## Kapasite teyidi
+Öncelik: KKY-29 → 23 → 24 → 16 → 27/28 → 17 → 26. Sekiz işin Jira başlangıcı 27 Kasım, bitişi 11 Aralık olarak eşitlendi. Üç bug puanlanmamış; 16 SP toplamına sıfır eforla eklenmiş sayılmaz.
 
-| Üye | Toplam saat | Teyit |
+## Açık kapasite ve kapsam kayıtları
+
+| Üye | Önceki kayıttaki saat | Yeni dönem teyidi |
 |---|---|---|
-| Mert |  | Üye teyidi bekleniyor |
-| Kübra | 8 saat | Teyit ettim (27 Kasım). |
-| Eray |  | Üye teyidi bekleniyor |
-| Esat |  | Üye teyidi bekleniyor |
-| Kadir |  | Üye teyidi bekleniyor |
-| Enes |  | Üye teyidi bekleniyor |
+| Mert | | Güncellenecek |
+| Kübra | 8 | Önceki 2 Aralık planı; 11 Aralık için güncellenecek |
+| Eray | 6 | Önceki 2 Aralık planı; 11 Aralık için güncellenecek |
+| Esat | | Güncellenecek |
+| Kadir | | Güncellenecek |
+| Enes | | Güncellenecek |
 
-Altı Story 21 SP, üç bug puanlanmamış. Enes’te 15 SP bulunuyor. Yalnızca Kübra’nın 8 saat teyidi kayıtlı; diğer saat ve bug eforları açık. US-20 devri veya daha dar kapsam kesinleşmeden sprinti açmadım.
+US-20 (KKY-18, 5 SP) ve kopya KKY-30 aktif sprint dışında. US-20’nin devir/kapsam kararı, KKY-30’un kapanışı için Enes teyidi takip edilecek.
 
-## Açılış kaydı
+## Tamamlanma kriterleri
 
-- PO hedef ve kapsam teyidi: Koşullu uygun; öncelik ve US-20 yük düzenlemesi kaydedildi.
-- Ekip kapasitesi ve bug eforu: Bekleniyor.
-- Jira gerçekleşen başlangıç: Henüz yok.
-- Gerçekleşen bitiş: Henüz yok.
+1. Çıktı kabul kriterlerini ve kaydedilen PO kararlarını karşılar.
+2. Başka bir üye inceler; bulgular düzeltilir ve kontrol sonucu yazılır.
+3. PR onaylanıp birleşir; Jira’da çıktı, kontrol ve kabul bağlantısı yer alır.
