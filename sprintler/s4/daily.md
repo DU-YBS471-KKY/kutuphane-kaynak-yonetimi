@@ -6,7 +6,7 @@ Takip: Mert Seçkin. Herkes kendi gerçek çalışmasını yazar; çalışmadı�
 |---|---|---|---|---|
 | 27.11.2026 | Eray |  |  |  |
 |  | Esat |  |  |  |
-|  | Mert |  | Rol devrini, S4 raporunu ve görev sırasını hazırladım. S4 için PO Kübra, SM benim; açılışta hedef ve kapasite teyidi bekleniyor. | Yok. |
+|  | Mert |  | Jira bitişini 2 Aralık 23.55’e eşitledim. PO’nun koşullu hedef/kapsam teyidini ve önceliklerini işledim. US-20 devri ve kapasite teyitleri açık; sprint başlamadı. | Yok. |
 |  | Kübra |  |  |  |
 |  | Kadir |  |  |  |
 |  | Enes |  |  |  |

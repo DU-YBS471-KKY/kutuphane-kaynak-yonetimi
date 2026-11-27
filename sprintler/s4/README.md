@@ -16,7 +16,7 @@ Ekip rehberindeki Sprint 3 sonrası rol değişimini kayda geçiriyorum. Sprint 
 ## İş sırası
 
 1. Kübra hedefi ve öncelikleri gözden geçirir. Her üye kapasitesini, bug sorumluları eforunu bildirir. Enes’in dört Story / 15 SP yükü özellikle değerlendirilir.
-2. Kapsam ve tarihler netleşince Sprint 4’ü gerçek başlangıç tarihiyle ben açarım. Eski 25 Kasım başlangıcı fiilî başlangıç olarak kullanılmaz. Mevcut 2 Aralık hedefinin saati 23.55 önerilmiştir; değişiklik ekipçe kaydedilir.
+2. Kapsam ve tarihler netleşince Sprint 4’ü gerçek başlangıç tarihiyle ben açarım. Eski 25 Kasım başlangıcı fiilî başlangıç olarak kullanılmaz. 2 Aralık bitişini Jira’da 23.55’e eşitledim; başlangıç gerçek açılışta güncellenecek.
 3. Kadir PR #64 ve #62’yi, Kübra PR #61’i, Esat PR #63’ü paralel inceleyebilir. İncelemeler için sprint açılışını beklemek gerekmiyor.
 4. Enes US-18 → US-19 sırasını izler; US-20 ve US-21 bağımsız hazırlanabilir. Esat, Kadir ve ben kendi bug’larımızı takip ederiz.
 5. Kontrol bulguları düzeltilir, sonuç kayda geçer. Kübra ürün kabulünü verir; onaylı PR birleşince kartlar Done yapılır. Kendi yazdığı PR’ı başka bir üye inceler.
@@ -32,3 +32,7 @@ Ekip rehberindeki Sprint 3 sonrası rol değişimini kayda geçiriyorum. Sprint 
 Sprint 3’te Eray’ın verdiği kararlar ve Esat’ın açılış/kapanış kayıtları geçmiş sprintin kaydıdır. Sprint 4’ün yeni ürün kararlarını Kübra, Jira sprint yönetimini ben takip ederim. S3 kapanış PR #64’ünün incelemesi S4 açılışının ön koşulu değildir.
 
 KKY-30 kopyasını Enes, Kübra ve ben netleştireceğiz. S1/S2 geçmiş teslim/erişim teyidini Eray ve Esat’tan alıp bağlantıları eşleştireceğim. Her gün kısa yazılı Daily yeterli; ayrıca sık toplantı planlamadım.
+
+## 27 Kasım PO teyidi
+
+Kübra hedefi ve 9 işlik aday kapsamı koşullu uygun buldu; 8 saat ayıracağını belirtti. Öncelik sırasını Planning’e işledim. US-20’nin Eray’a devri Eray ve Enes teyidini bekliyor; teyit olmadan atamayı değiştirmedim. Yetişmezse ilk çıkarılacak iş US-20. KKY-30 sprinte alınmayacak; kapatılması Enes teyidini bekliyor. Sprint henüz başlamadı.
