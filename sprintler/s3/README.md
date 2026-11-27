@@ -1,21 +1,23 @@
-# Sprint 3 ortak raporu
+# Sprint 3 ortak raporu — kapanış
 
-Sprint tarihleri 18–25 Kasım 2026; kapsam beş Story, 18 SP.
+Sprint 3, Esat Kor tarafından 25 Kasım 2026 saat 23.36’da kapatıldı. Jira’daki gerçekleşen aralık 18 Kasım 23.55–25 Kasım 23.36’dır (Türkiye saati). Beş Story Done, tamamlanan 18/18 SP ve tamamlanma oranı %100’dür. Trello’daki beş kart da Tamamlandı’dadır.
 
-25 Kasım akşamı ortak raporun arşiv kopyasını güncelledim. PR #51, #52, #53, #56 ve #57 develop’a birleşti. Kübra’nın US-11–13 kontrolü 24/25, Kadir’in US-14–15 kontrolü 21/21 uyumlu; toplam 45/46. Sonuçlar belge ve ekran akışı kontrolüdür; çalışan uygulama testi yapılmadı.
+US-11–13 için Kübra’nın 25/25, US-14–15 için Kadir’in 21/21 uyumlu kontrolüyle toplam 46/46 kontrol kaydı vardır. Bunlar belge ve ekran akışı kontrolleridir; çalışan uygulama testi yapılmadı. Stok geçişi PR #59’da düzeltildi ve PR #60’ta yeniden kontrol edildi; iki PR Eray’ın onayıyla birleşti.
 
-US-11 O03 ve işlem akışındaki stok ifadesi açık: müsait sayı yalnızca Müsait → Ödünçte geçişinde 1 azalmalı, Rezerve → Ödünçte geçişinde değişmemeli. PR #52 birleştiği için Kadir yeni düzeltme PR’ı açacak; Kübra KS-11-11 ve ilgili akışı yeniden kontrol edecek. Eray güncel çıktıya kabul verecek, Esat kabul edilen işleri panolarda eşitleyip sprinti kapatacak.
+Kapanış sonucunu ortak rapora işledim. 25 Kasım’da aldığım Sprint Report, Burndown ve Contributors görüntülerini 26 Kasım’da rapora ekledim. Burndown’daki son gün düşüşü, Jira Done durumlarının 25 Kasım 22.48–22.49’da güncellenmesini gösterir. Contributors görünümü develop dalı, Son 3 ay ve merge commit’leri hariç seçilidir; PR inceleme/onay katkılarını göstermez.
 
-Son kontrolümde Jira’da beş iş In Progress ve tamamlanan puan 0/18; Trello’da beş kart Test/QA’da. Nihai hedef sonucu, tamamlanan SP ve kapanış görsellerini gerçek kapanıştan sonra ekleyeceğim.
+## Sprint 4 takibi
 
-KKY-26 Sprint 4’te Story türünde, Enes’e atanmış ve 2 SP. Trello kartı açılmış; Sprint 4 planı altı iş / 21 SP. Paylaşım taslağı Enes, bağımsız kontrol Kübra, PO kabulü Eray tarafından yapılacak. Backlog’daki KKY-30 aynı işin kopyası; Enes ile Esat gerekçesini ve kullanılacak kaydı netleştirecek. Mevcut plan KKY-26 üzerinden izleniyor.
+- Plan: altı Story / 21 SP ve üç puanlanmamış ders bug’ı; toplam dokuz iş.
+- KKY-26 paylaşım işi Enes’te; bağımsız kontrol ve Sprint 4 ürün kabulü PO Kübra’da; Scrum Master benim (27 Kasım rol devri). Uygulama çıktısı henüz tamamlanmadı.
+- Bug atamaları: KKY-27 Esat, KKY-28 Kadir, KKY-29 Mert.
+- KKY-29 için iade/liste akışını ve beş kontrol senaryosunu PR #61 ile incelemeye açtım; Kübra’nın kontrolü ve PO kabulü bekleniyor. Bu beş senaryo, Sprint 3’ün tamamlanan 46 kontrolüne eklenmedi.
+- KKY-30 kopyasını Enes, PO Kübra ve ben netleştireceğiz. Geçmiş S1/S2 teslim/erişim teyidi Eray ve Esat’tadır.
 
-Retrospektif eylem planı ortak rapora işlendi. Enes kalan ekip görüşlerini ve ekip teyidini topluyor. KKY-27–29 ders bug’larının sorumlu ve sprint kararı Eray tarafından netleştirilecek; S1/S2 teslim ve erişim teyidi Eray ile Esat’tan bekleniyor.
-
-- [Review ara kaydım](review.md)
+- [Review kapanış kaydım](review.md)
 - [25 Kasım çalışma kaydım](mert-25-kasim.md)
-- [Önceki çalışma kaydım](mert-24-kasim.md)
-- [US-11 stok bulgusu KKY-10](https://dagdelen41.atlassian.net/browse/KKY-10)
-- [Sprint 4 kriz işi KKY-26](https://dagdelen41.atlassian.net/browse/KKY-26)
+- [Ortak raporun Word kopyası](Sprint_3_Raporu.docx)
 
-`Sprint_3_Raporu.docx`, ortak raporun 25 Kasım akşamındaki arşiv kopyasıdır. Ekip ortak Google belgesinde çalışmaya devam eder. Sprint 3 kapanışı henüz tamamlanmadı.
+Ortak raporun bu arşiv kopyası 26 Kasım 2026’da hazırlandı. Diğer üyelerin Daily ve Retro görüşleri kendi kayıtlarıdır; sonraki güncellemeler ortak raporda takip edilir.
+
+27 Kasım rol devri notum: Sprint 3’ün gerçekleşen PO/SM, kapanış ve kontrol sonuçları korunmuştur. Sprint 4’e yönelik sonraki adımlar PO Kübra ve SM Mert olarak güncellenmiştir.
